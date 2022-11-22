@@ -1,0 +1,42 @@
+2022-11-16T19:34:17+00:00 CRITICAL require_once(): Failed opening required 'wp-content/themes/bepilates/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:34:29+00:00 CRITICAL require_once(): Failed opening required 'wp-content/themes/bepilates/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:34:37+00:00 CRITICAL require_once(): Failed opening required 'wp-content/themes/bepilates/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:34:42+00:00 CRITICAL require_once(): Failed opening required 'wp-content/themes/bepilates/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:34:59+00:00 CRITICAL require_once(): Failed opening required 'wp-content/themes/bepilates/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:35:02+00:00 CRITICAL require_once(): Failed opening required 'wp-content/themes/bepilates/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:36:01+00:00 CRITICAL require_once(): Failed opening required '/themes/bepilates/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:36:11+00:00 CRITICAL require_once(): Failed opening required '/themes/bepilates/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:36:14+00:00 CRITICAL require_once(): Failed opening required '/themes/bepilates/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:49:17+00:00 CRITICAL require_once(): Failed opening required '/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:49:17+00:00 CRITICAL require_once(): Failed opening required '/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:49:25+00:00 CRITICAL require_once(): Failed opening required '/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:50:04+00:00 CRITICAL require_once(): Failed opening required '/widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:50:31+00:00 CRITICAL require_once(): Failed opening required '../widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T19:50:40+00:00 CRITICAL require_once(): Failed opening required '../widgets/files/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T20:23:49+00:00 CRITICAL require_once(): Failed opening required '/widgets/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T20:24:39+00:00 CRITICAL require_once(): Failed opening required '/widgets/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T20:24:41+00:00 CRITICAL require_once(): Failed opening required '/widgets/widget-icon-box.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 25
+
+2022-11-16T20:24:54+00:00 CRITICAL Cannot declare class QT_Icon_Box, because the name is already in use en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/widgets/widget-icon-box.php en la línea 0
+
+2022-11-16T20:25:15+00:00 CRITICAL Cannot declare class QT_Icon_Box, because the name is already in use en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/widgets/widget-icon-box.php en la línea 0
+
+2022-11-16T20:25:23+00:00 CRITICAL Cannot declare class QT_Icon_Box, because the name is already in use en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/widgets/widget-icon-box.php en la línea 0
+

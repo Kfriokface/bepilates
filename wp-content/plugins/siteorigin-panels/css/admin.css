@@ -225,7 +225,9 @@
 .siteorigin-panels-builder .so-rows-container .so-row-toolbar .so-dropdown-wrapper .so-dropdown-links-wrapper ul li.so-row-colors-container {
   clear: both;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: space-evenly;
   padding: 5px;
 }
 .siteorigin-panels-builder .so-rows-container .so-row-toolbar .so-dropdown-wrapper .so-dropdown-links-wrapper ul li.so-row-colors-container .so-row-color {
@@ -329,6 +331,9 @@
   -moz-transition: background 0.25s ease-in-out 0s;
   -o-transition: background 0.25s ease-in-out 0s;
   transition: background 0.25s ease-in-out 0s;
+}
+.siteorigin-panels-builder .so-rows-container .so-row-container .so-cells .cell.cell-selected .cell-wrapper {
+  background: #a4cadd;
 }
 .so-live-editor-builder .siteorigin-panels-builder .so-rows-container .so-row-container .so-cells .cell.so-show-icon .widgets-container .so-widget:hover .so-widget-wrapper,
 .siteorigin-panels-builder .so-rows-container .so-row-container .so-cells .cell.so-show-icon.so-small-actions .widgets-container .so-widget:hover .so-widget-wrapper {
@@ -568,6 +573,9 @@
   -moz-transition: background 0.25s ease-in-out 0s;
   -o-transition: background 0.25s ease-in-out 0s;
   transition: background 0.25s ease-in-out 0s;
+}
+.siteorigin-panels-builder .so-rows-container .so-row-container .so-cells .cell .resize-handle:hover {
+  background: #dcebf2;
 }
 .siteorigin-panels-builder .so-rows-container .so-row-container .so-cells .cell:first-child .resize-handle {
   display: none;

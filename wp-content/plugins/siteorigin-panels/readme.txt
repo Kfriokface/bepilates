@@ -3,8 +3,8 @@ Tags: page builder, responsive, parallax, widgets, blocks, gallery, layout, grid
 Requires at least: 4.7
 Tested up to: 6.1
 Requires PHP: 5.6.20
-Stable tag: 2.18.3
-Build time: 2022-11-09T13:57:03+00:00
+Stable tag: 2.18.4
+Build time: 2022-11-13T21:39:41+00:00
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/premium/
@@ -106,6 +106,9 @@ We've tried to ensure that Page Builder is compatible with most plugin widgets. 
 SiteOrigin Premium includes access to our professional email support service, perfect for those times when you need fast and effective technical support. We're standing by to assist you in any way we can.
 
 == Changelog ==
+
+= 2.18.4 - 13 November 2022 =
+* Admin Row Colors: Adjusted swatches layout and spacing.
 
 = 2.18.3 - 09 November 2022 =
 * Styles: Added viewport units of measurement.

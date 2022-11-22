@@ -1,0 +1,30 @@
+2022-11-20T10:39:53+00:00 CRITICAL Uncaught Error: Call to undefined function add_filters() in /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php:63
+Stack trace:
+#0 /Applications/MAMP/htdocs/bepilates/wp-settings.php(585): include()
+#1 /Applications/MAMP/htdocs/bepilates/wp-config.php(96): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/bepilates/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/bepilates/wp-blog-header.php(13): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/bepilates/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 63
+
+2022-11-20T10:40:26+00:00 CRITICAL Uncaught Error: Call to undefined function add_filters() in /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php:63
+Stack trace:
+#0 /Applications/MAMP/htdocs/bepilates/wp-settings.php(585): include()
+#1 /Applications/MAMP/htdocs/bepilates/wp-config.php(96): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/bepilates/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/bepilates/wp-blog-header.php(13): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/bepilates/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 63
+
+2022-11-20T10:40:27+00:00 CRITICAL Uncaught Error: Call to undefined function add_filters() in /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php:63
+Stack trace:
+#0 /Applications/MAMP/htdocs/bepilates/wp-settings.php(585): include()
+#1 /Applications/MAMP/htdocs/bepilates/wp-config.php(96): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/bepilates/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/bepilates/wp-blog-header.php(13): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/bepilates/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown en /Applications/MAMP/htdocs/bepilates/wp-content/themes/bepilates/functions.php en la línea 63
+

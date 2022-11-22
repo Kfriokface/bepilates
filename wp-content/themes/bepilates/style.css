@@ -1,0 +1,34 @@
+/*
+Theme Name: BePilates
+Theme URI: http://demo.qreativethemes.com/physio
+Template: physio-qt
+Author: QreativeThemes
+Author URI: http://qreativethemes.com/
+Description: A WordPress Theme for Physical Therapy &amp; Medical Clinic by QreativeThemes
+Tags: custom-background,custom-colors,custom-menu,featured-images,sticky-post,theme-options,translation-ready
+Version: 2.4.2.1668542974
+Updated: 2022-11-15 20:09:34
+
+*/
+
+/* HEADER WIDGETS */
+
+.header-widgets .container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.header-widgets .container .widget {
+  margin: 0;
+  flex: 0 1 25%;
+}
+
+.header-widgets .widget::after {
+  content: none;
+}
+
+.header-widgets .icon-box {
+  display: flex;
+  align-items: center;
+}

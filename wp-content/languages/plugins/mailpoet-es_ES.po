@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - MailPoet &#8211; emails and newsletters in WordPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-03 16:27:22+0000\n"
+"PO-Revision-Date: 2022-11-18 12:23:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,89 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.3\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - MailPoet &#8211; emails and newsletters in WordPress - Stable (latest release)\n"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:119
+msgid "Site title"
+msgstr "Título del sitio"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:123
+msgid "Homepage link"
+msgstr "Enlace de la página de inicio"
+
+#: lib/Settings/SettingsController.php:72
+msgid "Confirm your subscription to [site:title]"
+msgstr "Confirma tu suscripción a [site:title]"
+
+#: lib/Config/Hooks.php:439
+msgid "Give feedback"
+msgstr "Da tu opinión"
+
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:80
+#: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:100
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:76
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedProduct.php:97
+msgid "week(s)"
+msgstr "semana(s)"
+
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:76
+#: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:96
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:72
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedProduct.php:93
+msgid "day(s)"
+msgstr "día(s)"
+
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:72
+#: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:92
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:68
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedProduct.php:89
+msgid "hour(s)"
+msgstr "hora(s)"
+
+#: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:88
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:64
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedProduct.php:85
+msgid "immediately"
+msgstr "inmediatamente"
+
+#. translators: %s is the name of the category.
+#. translators: %s is the name of the products.
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:61
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedProduct.php:82
+msgid "after a purchase"
+msgstr "Después de una compra"
+
+#: lib/Config/Menu.php:426
+msgid "Logs"
+msgstr "Registros"
+
+#: lib/Config/Menu.php:416
+msgid "Experimental Features"
+msgstr "Características experimentales"
+
+#: lib/Config/Menu.php:443 lib/Config/Menu.php:445
+#: assets/dist/js/automation.js:2
+msgid "Automations"
+msgstr "Automatizaciones"
+
+#: lib/Automation/Engine/Validation/WorkflowRules/ValidStepRule.php:107
+msgid "This value is not matching the correct times."
+msgstr "Este valor no coincide con la hora correcta."
+
+#: lib/Automation/Engine/Validation/WorkflowRules/ValidStepRule.php:105
+msgid "This value does not match the expected format."
+msgstr "Este valor no coincide con el formato esperado."
+
+#: lib/Automation/Engine/Validation/WorkflowRules/ValidStepRule.php:103
+msgid "This value is not well formed."
+msgstr "Este valor no está bien formado."
+
+#: lib/Automation/Engine/Validation/WorkflowRules/ValidStepRule.php:101
+msgid "This value is too long."
+msgstr "Este valor es demasiado largo."
+
+#: lib/Automation/Engine/Validation/WorkflowRules/ValidStepRule.php:99
+msgid "This value is not long enough."
+msgstr "Este valor no es lo suficientemente largo."
 
 #: lib/Newsletter/Shortcodes/ShortcodesHelper.php:117
 #: assets/dist/js/commons.js:9
@@ -42,6 +125,28 @@ msgstr "Este valor debe ser un correo electrónico válido."
 #: lib/Config/Hooks.php:455
 msgid "View MailPoet settings"
 msgstr "Ver los ajustes de MailPoet"
+
+#: lib/Automation/Engine/Control/RootStep.php:18
+msgid "Root step"
+msgstr "Paso de raíz"
+
+#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:76
+#: assets/dist/js/automation_editor.js:1
+msgid "Subject"
+msgstr "Asunto"
+
+#: lib/Automation/Engine/Storage/WorkflowTemplateStorage.php:64
+msgid "Simple welcome email"
+msgstr "Correo electrónico de bienvenida sencillo"
+
+#: lib/Automation/Engine/Exceptions.php:176
+msgid "Automation structure modification not supported."
+msgstr "No es compatible la modificación de la estructura de automatización."
+
+#. translators: %1$s is the name of the key, %2$s the arguments.
+#: lib/Automation/Engine/Exceptions.php:134
+msgid "Subject with key \"%1$s\" and args \"%2$s\" failed to load."
+msgstr "No se pudo cargar el asunto con la clave «%1$s» y los argumentos «%2$s»."
 
 #: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:62
 #: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:75
@@ -1684,6 +1789,11 @@ msgctxt "Description of Abandoned Shopping Cart email"
 msgid "Send the email when a customer abandons their cart."
 msgstr "Envía el correo electrónico cuando un cliente abandona su carrito."
 
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:68
+msgctxt "This is a trigger setting. It means that we will send an automatic email to a visitor 30 minutes after this visitor had left the website."
+msgid "30 minutes"
+msgstr "30 minutos"
+
 #: lib/API/JSON/API.php:193
 msgid "HTTP request method not allowed."
 msgstr "Método de solicitud HTTP no permitido."
@@ -2600,6 +2710,10 @@ msgstr "Se requiere la dirección de correo electrónico del suscriptor."
 msgid "Invalid API version."
 msgstr "Versión de API no válida."
 
+#: lib/API/MP/v1/Segments.php:146
+msgid "The list does not exist."
+msgstr "La lista no existe."
+
 #. translators: %s is the error message.
 #: lib/API/JSON/v1/Services.php:215
 msgid "Error validating Premium key, please try again later (%s)"
@@ -2718,6 +2832,12 @@ msgstr "Por favor, selecciona una lista."
 #: lib/Subscribers/SubscriberSubscribeController.php:141
 msgid "You need to wait %s before subscribing again."
 msgstr "Tienes que esperar esperar %s antes de suscribirte de nuevo."
+
+#. translators: %1$s is the name of the render, %2$s the folder path, %3$s the
+#. error message.
+#: lib/Config/Renderer.php:109
+msgid "Failed to render template \"%1$s\". Please ensure the template cache folder \"%2$s\" exists and has write permissions. Terminated with error: \"%3$s\""
+msgstr "«%1$s» es el nombre del procesamiento, la ruta de la carpeta «%2$s», el mensaje de error «%3$s»."
 
 #: lib/Form/Util/Export.php:63
 msgid "BEGIN Scripts: you should place them in the header of your theme"
@@ -4042,3 +4162,8 @@ msgid "This list does not exist."
 msgid_plural "These lists do not exist."
 msgstr[0] "Esta lista no existe."
 msgstr[1] "Estas listas no existen."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.mailpoet.com"
+msgstr "https://www.mailpoet.com"
