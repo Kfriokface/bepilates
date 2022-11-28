@@ -418,7 +418,7 @@ msgstr ""
 msgid "New Row"
 msgstr ""
 
-#: inc/admin.php:498, inc/admin.php:506, inc/styles.php:352, tpl/js-templates.php:68
+#: inc/admin.php:498, inc/admin.php:506, inc/styles.php:359, tpl/js-templates.php:68
 msgid "Row"
 msgstr ""
 
@@ -438,7 +438,7 @@ msgstr ""
 msgid "Add a {{%= items[0] %}}, {{%= items[1] %}} or {{%= items[2] %}} to get started."
 msgstr ""
 
-#: inc/admin.php:505, inc/styles.php:518, tpl/js-templates.php:67
+#: inc/admin.php:505, inc/styles.php:525, tpl/js-templates.php:67
 msgid "Widget"
 msgstr ""
 
@@ -945,7 +945,7 @@ msgstr ""
 msgid "Allow margin below the last row."
 msgstr ""
 
-#: inc/settings.php:501, inc/styles.php:451
+#: inc/settings.php:501, inc/styles.php:458
 msgid "Mobile Cell Bottom Margin"
 msgstr ""
 
@@ -1017,7 +1017,7 @@ msgstr ""
 msgid "Include styles into your Post Content. This keeps page layouts, even when Page Builder is deactivated."
 msgstr ""
 
-#: inc/settings.php:607, inc/styles-admin.php:301
+#: inc/settings.php:607, inc/styles-admin.php:317
 msgid "Enabled"
 msgstr ""
 
@@ -1061,7 +1061,7 @@ msgstr ""
 msgid "Theme"
 msgstr ""
 
-#: inc/styles-admin.php:214, inc/styles.php:421, inc/styles.php:478
+#: inc/styles-admin.php:214, inc/styles.php:428, inc/styles.php:485
 msgid "Top"
 msgstr ""
 
@@ -1069,7 +1069,7 @@ msgstr ""
 msgid "Right"
 msgstr ""
 
-#: inc/styles-admin.php:222, inc/styles.php:423, inc/styles.php:480
+#: inc/styles-admin.php:222, inc/styles.php:430, inc/styles.php:487
 msgid "Bottom"
 msgstr ""
 
@@ -1089,12 +1089,20 @@ msgstr ""
 msgid "External URL"
 msgstr ""
 
-#: inc/styles-admin.php:344, tpl/admin-home-page.php:21
+#: inc/styles-admin.php:360, tpl/admin-home-page.php:21
 msgid "On"
 msgstr ""
 
-#: inc/styles-admin.php:344, tpl/admin-home-page.php:21
+#: inc/styles-admin.php:360, tpl/admin-home-page.php:21
 msgid "Off"
+msgstr ""
+
+#: inc/styles-admin.php:627, widgets/widgets.php:763
+msgid "Full"
+msgstr ""
+
+#: inc/styles-admin.php:628
+msgid "Thumbnail (Theme-defined)"
 msgstr ""
 
 #: inc/styles.php:116
@@ -1198,186 +1206,190 @@ msgid "Parallax"
 msgstr ""
 
 #: inc/styles.php:222
-msgid "Border Color"
+msgid "Background Image Size"
 msgstr ""
 
 #: inc/styles.php:229
+msgid "Border Color"
+msgstr ""
+
+#: inc/styles.php:236
 msgid "Border Radius"
 msgstr ""
 
-#: inc/styles.php:237
+#: inc/styles.php:244
 msgid "Box Shadow"
 msgstr ""
 
-#: inc/styles.php:243, inc/styles.php:295
+#: inc/styles.php:250, inc/styles.php:302
 msgid "Color"
 msgstr ""
 
-#: inc/styles.php:249, inc/styles.php:301
+#: inc/styles.php:256, inc/styles.php:308
 msgid "Opacity"
 msgstr ""
 
-#: inc/styles.php:253, inc/styles.php:305
+#: inc/styles.php:260, inc/styles.php:312
 msgid "Enter a value between 0 and 100."
 msgstr ""
 
-#: inc/styles.php:256, inc/styles.php:308
+#: inc/styles.php:263, inc/styles.php:315
 msgid "Inset"
 msgstr ""
 
-#: inc/styles.php:260, inc/styles.php:312
+#: inc/styles.php:267, inc/styles.php:319
 msgid "Inset box shadows appear inside the %s."
 msgstr ""
 
-#: inc/styles.php:263, inc/styles.php:315
+#: inc/styles.php:270, inc/styles.php:322
 msgid "Horizontal Offset"
 msgstr ""
 
-#: inc/styles.php:269, inc/styles.php:321
+#: inc/styles.php:276, inc/styles.php:328
 msgid "Vertical Offset"
 msgstr ""
 
-#: inc/styles.php:275, inc/styles.php:327
+#: inc/styles.php:282, inc/styles.php:334
 msgid "Blur"
 msgstr ""
 
-#: inc/styles.php:281, inc/styles.php:333
+#: inc/styles.php:288, inc/styles.php:340
 msgid "Spread"
 msgstr ""
 
-#: inc/styles.php:289
+#: inc/styles.php:296
 msgid "Box Shadow Hover"
 msgstr ""
 
-#: inc/styles.php:355
+#: inc/styles.php:362
 msgid "Cell Class"
 msgstr ""
 
-#: inc/styles.php:358
+#: inc/styles.php:365
 msgid "Class added to all cells in this row."
 msgstr ""
 
-#: inc/styles.php:364
+#: inc/styles.php:371
 msgid "Bottom Margin"
 msgstr ""
 
-#: inc/styles.php:367
+#: inc/styles.php:374
 msgid "Space below the row. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:372
+#: inc/styles.php:379
 msgid "Gutter"
 msgstr ""
 
-#: inc/styles.php:375
+#: inc/styles.php:382
 msgid "Amount of space between cells. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:380
+#: inc/styles.php:387
 msgid "Row Layout"
 msgstr ""
 
-#: inc/styles.php:384, inc/styles.php:397
+#: inc/styles.php:391, inc/styles.php:404
 msgid "Standard"
 msgstr ""
 
-#: inc/styles.php:385
+#: inc/styles.php:392
 msgid "Full Width"
 msgstr ""
 
-#: inc/styles.php:386
+#: inc/styles.php:393
 msgid "Full Width Stretched"
 msgstr ""
 
-#: inc/styles.php:387
+#: inc/styles.php:394
 msgid "Full Width Stretched Padded"
 msgstr ""
 
-#: inc/styles.php:393
+#: inc/styles.php:400
 msgid "Collapse Behaviour"
 msgstr ""
 
-#: inc/styles.php:398
+#: inc/styles.php:405
 msgid "No Collapse"
 msgstr ""
 
-#: inc/styles.php:404
+#: inc/styles.php:411
 msgid "Collapse Order"
 msgstr ""
 
-#: inc/styles.php:408, widgets/widgets.php:637, widgets/widgets.php:759, inc/widgets/post-loop.php:374
+#: inc/styles.php:415, widgets/widgets.php:637, widgets/widgets.php:759, inc/widgets/post-loop.php:374
 msgid "Default"
 msgstr ""
 
-#: inc/styles.php:409
+#: inc/styles.php:416
 msgid "Left on Top"
 msgstr ""
 
-#: inc/styles.php:410
+#: inc/styles.php:417
 msgid "Right on Top"
 msgstr ""
 
-#: inc/styles.php:417
+#: inc/styles.php:424
 msgid "Cell Vertical Alignment"
 msgstr ""
 
-#: inc/styles.php:422, inc/styles.php:479, widgets/widgets/button/button.php:31
+#: inc/styles.php:429, inc/styles.php:486, widgets/widgets/button/button.php:31
 msgid "Center"
 msgstr ""
 
-#: inc/styles.php:424, inc/styles.php:481
+#: inc/styles.php:431, inc/styles.php:488
 msgid "Stretch"
 msgstr ""
 
-#: inc/styles.php:433
+#: inc/styles.php:440
 msgid "Tablet Bottom Margin"
 msgstr ""
 
-#: inc/styles.php:436
+#: inc/styles.php:443
 msgid "Space below the row on tablet devices. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:443
+#: inc/styles.php:450
 msgid "Mobile Bottom Margin"
 msgstr ""
 
-#: inc/styles.php:446
+#: inc/styles.php:453
 msgid "Space below the row on mobile devices. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:454
+#: inc/styles.php:461
 msgid "Vertical space between cells in a collapsed mobile row. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:470
+#: inc/styles.php:477
 msgid "Cell"
 msgstr ""
 
-#: inc/styles.php:473
+#: inc/styles.php:480
 msgid "Vertical Alignment"
 msgstr ""
 
-#: inc/styles.php:477
+#: inc/styles.php:484
 msgid "Use row setting"
 msgstr ""
 
-#: inc/styles.php:487, inc/styles.php:532
+#: inc/styles.php:494, inc/styles.php:539
 msgid "Font Color"
 msgstr ""
 
-#: inc/styles.php:494, inc/styles.php:539
+#: inc/styles.php:501, inc/styles.php:546
 msgid "Link Color"
 msgstr ""
 
-#: inc/styles.php:501, inc/styles.php:546
+#: inc/styles.php:508, inc/styles.php:553
 msgid "Link Hover Color"
 msgstr ""
 
-#: inc/styles.php:521
+#: inc/styles.php:528
 msgid "Margin"
 msgstr ""
 
-#: inc/styles.php:524
+#: inc/styles.php:531
 msgid "Margins around the widget."
 msgstr ""
 
@@ -1719,10 +1731,6 @@ msgstr ""
 
 #: widgets/widgets.php:762
 msgid "Thumbnail"
-msgstr ""
-
-#: widgets/widgets.php:763
-msgid "Full"
 msgstr ""
 
 #: widgets/widgets.php:771

@@ -3,7 +3,7 @@ Contributors: mailpoet
 Tags: email, email marketing, post notification, woocommerce emails, email automation, newsletter, newsletter builder, newsletter subscribers
 Requires at least: 5.8
 Tested up to: 6.0
-Stable tag: 4.0.0
+Stable tag: 4.0.1
 Requires PHP: 7.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -11,6 +11,14 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Send beautiful newsletters from WordPress. Collect subscribers with signup forms, automate your emails for WooCommerce, blog post notifications & more
 
 == Description ==
+
+= Our Black Friday sale is live! Save 40% for a limited time. =
+
+Get a 40% discount on all MailPoet plans and upgrades until 3 PM UTC on 29 November. Terms & conditions apply.
+
+[Shop now](https://account.mailpoet.com/?billing=yearly&ref=sale-bfcm-2022-wporg&utm_source=WP&utm_medium=repotext&utm_campaign=mp_bfcm22)
+
+= What is MailPoet? =
 
 Use MailPoet to create, send, manage, and grow your email marketing campaigns – all without leaving your WordPress dashboard.
 
@@ -218,6 +226,14 @@ Check our [Knowledge Base](https://kb.mailpoet.com) or contact us through our [s
 6. WooCommerce emails
 
 == Changelog ==
+
+= 4.0.1 - 2022-11-22 =
+* Improved: when editing a list, you can choose if it should be shown on the Manage Subscription page (on by default);
+* Improved: form templates now link to existing Privacy Page;
+* Changed: [subscriber:count] shortcode now counts only subscribed subscribers (and not unconfirmed or inactive);
+* Fixed: automations beta badge overflows menu in some languages;
+* Fixed: failing to create automation tables with "Base table or view already exists" in rare cases;
+* Fixed: displaying wrong tasks in System Status.
 
 = 4.0.0 - 2022-11-15 =
 * Added: new Automations page (beta version, please share your feedback directly from the plugin);

@@ -1485,32 +1485,32 @@ msgstr ""
 msgid "Error validating your Captcha response."
 msgstr ""
 
-#: widgets/contact/contact.php:1501
+#: widgets/contact/contact.php:1503
 msgid "Unfortunately our system identified your message as spam."
 msgstr ""
 
-#: widgets/contact/contact.php:1508
+#: widgets/contact/contact.php:1510
 msgid "Error validating your Captcha response. Really Simple CAPTCHA missing."
 msgstr ""
 
-#: widgets/contact/contact.php:1516
+#: widgets/contact/contact.php:1518
 msgid "Error validating your Captcha response. Please try again."
 msgstr ""
 
-#: widgets/contact/contact.php:1523, widgets/contact/contact.php:1531
+#: widgets/contact/contact.php:1525, widgets/contact/contact.php:1533
 msgid "Unfortunately, our system identified your message as spam."
 msgstr ""
 
-#: widgets/contact/contact.php:1541
+#: widgets/contact/contact.php:1543
 msgctxt "The name of who sent this email"
 msgid "From"
 msgstr ""
 
-#: widgets/contact/contact.php:1660
+#: widgets/contact/contact.php:1665
 msgid "Add a form autoresponder and additional fields, including a date and time picker with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/contact/contact.php:1665
+#: widgets/contact/contact.php:1670
 msgid "Use Google Fonts right inside the Contact Form Widget with %sSiteOrigin Premium%s"
 msgstr ""
 

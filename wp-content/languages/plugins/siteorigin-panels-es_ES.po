@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Page Builder by SiteOrigin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-26 16:51:57+0000\n"
+"PO-Revision-Date: 2022-11-23 20:24:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,14 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.3\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Page Builder by SiteOrigin - Stable (latest release)\n"
+
+#: inc/styles.php:222
+msgid "Background Image Size"
+msgstr "Tamaño de la imagen de fondo"
+
+#: inc/styles-admin.php:628
+msgid "Thumbnail (Theme-defined)"
+msgstr "Miniatura (definida por el tema)"
 
 #: inc/admin.php:535
 msgid "desaturated-yellow"
@@ -31,11 +39,11 @@ msgstr "rojo-suave"
 msgid "soft-blue"
 msgstr "azul-suave"
 
-#: inc/styles.php:260 inc/styles.php:312
+#: inc/styles.php:267 inc/styles.php:319
 msgid "Inset box shadows appear inside the %s."
 msgstr "Las sobras del recuadro de la caja aparecen dentro del %s."
 
-#: inc/styles.php:256 inc/styles.php:308
+#: inc/styles.php:263 inc/styles.php:315
 msgid "Inset"
 msgstr "Recuadro"
 
@@ -63,43 +71,43 @@ msgstr "Azul suave"
 msgid "Choose Media"
 msgstr "Elegir medios"
 
-#: inc/styles.php:289
+#: inc/styles.php:296
 msgid "Box Shadow Hover"
 msgstr "Sombra de la caja al pasar el cursor"
 
-#: inc/styles.php:281 inc/styles.php:333
+#: inc/styles.php:288 inc/styles.php:340
 msgid "Spread"
 msgstr "Difusión"
 
-#: inc/styles.php:275 inc/styles.php:327
+#: inc/styles.php:282 inc/styles.php:334
 msgid "Blur"
 msgstr "Difuminar"
 
-#: inc/styles.php:269 inc/styles.php:321
+#: inc/styles.php:276 inc/styles.php:328
 msgid "Vertical Offset"
 msgstr "Desplazamiento vertical"
 
-#: inc/styles.php:263 inc/styles.php:315
+#: inc/styles.php:270 inc/styles.php:322
 msgid "Horizontal Offset"
 msgstr "Desplazamiento horizontal"
 
-#: inc/styles.php:253 inc/styles.php:305
+#: inc/styles.php:260 inc/styles.php:312
 msgid "Enter a value between 0 and 100."
 msgstr "Introduce un valor entre 0 y 100."
 
-#: inc/styles.php:249 inc/styles.php:301
+#: inc/styles.php:256 inc/styles.php:308
 msgid "Opacity"
 msgstr "Opacidad"
 
-#: inc/styles.php:243 inc/styles.php:295
+#: inc/styles.php:250 inc/styles.php:302
 msgid "Color"
 msgstr "Color"
 
-#: inc/styles.php:237
+#: inc/styles.php:244
 msgid "Box Shadow"
 msgstr "Sombra de la caja"
 
-#: inc/styles.php:229
+#: inc/styles.php:236
 msgid "Border Radius"
 msgstr "Radio del borde"
 
@@ -123,7 +131,7 @@ msgstr "Margen inferior del widget en móviles"
 msgid "The default vertical space between cells in a collapsed mobile row."
 msgstr "El espacio vertical por defecto entre celdas en una fila móvil cerrada."
 
-#: inc/settings.php:501 inc/styles.php:451
+#: inc/settings.php:501 inc/styles.php:458
 msgid "Mobile Cell Bottom Margin"
 msgstr "Margen inferior de la celda en móviles"
 
@@ -247,15 +255,15 @@ msgstr "Márgenes alrededor del widget en los dispositivos móviles."
 msgid "Mobile Margin"
 msgstr "Margen en móviles"
 
-#: inc/styles.php:501 inc/styles.php:546
+#: inc/styles.php:508 inc/styles.php:553
 msgid "Link Hover Color"
 msgstr "Color de los enlaces al pasar el cursor"
 
-#: inc/styles.php:436
+#: inc/styles.php:443
 msgid "Space below the row on tablet devices. Default is %spx."
 msgstr "Espacio debajo de la fila en dispositivos de tableta. Por defecto es de %spx."
 
-#: inc/styles.php:433
+#: inc/styles.php:440
 msgid "Tablet Bottom Margin"
 msgstr "Margen inferior para la tableta"
 
@@ -395,79 +403,79 @@ msgstr "Declaraciones CSS"
 msgid "Help"
 msgstr "Ayuda"
 
-#: inc/styles.php:454
+#: inc/styles.php:461
 msgid "Vertical space between cells in a collapsed mobile row. Default is %spx."
 msgstr "Espacio vertical entre celdas en una fila cerrada en móviles. Por defecto es %spx."
 
-#: inc/styles.php:524
+#: inc/styles.php:531
 msgid "Margins around the widget."
 msgstr "Márgenes alrededor del widget."
 
-#: inc/styles.php:521
+#: inc/styles.php:528
 msgid "Margin"
 msgstr "Margen"
 
-#: inc/styles.php:494 inc/styles.php:539
+#: inc/styles.php:501 inc/styles.php:546
 msgid "Link Color"
 msgstr "Color de los enlaces"
 
-#: inc/styles.php:477
+#: inc/styles.php:484
 msgid "Use row setting"
 msgstr "Usar el ajuste de la fila"
 
-#: inc/styles.php:473
+#: inc/styles.php:480
 msgid "Vertical Alignment"
 msgstr "Alineación vertical"
 
-#: inc/styles.php:470
+#: inc/styles.php:477
 msgid "Cell"
 msgstr "Celda"
 
-#: inc/styles.php:446
+#: inc/styles.php:453
 msgid "Space below the row on mobile devices. Default is %spx."
 msgstr "Espacio debajo de la fila en dispositivos móviles. Por defecto es de %spx."
 
-#: inc/styles.php:443
+#: inc/styles.php:450
 msgid "Mobile Bottom Margin"
 msgstr "Margen inferior para móvil"
 
-#: inc/styles.php:424 inc/styles.php:481
+#: inc/styles.php:431 inc/styles.php:488
 msgid "Stretch"
 msgstr "Estirada"
 
-#: inc/styles.php:417
+#: inc/styles.php:424
 msgid "Cell Vertical Alignment"
 msgstr "Alineación vertical de la celda"
 
-#: inc/styles.php:410
+#: inc/styles.php:417
 msgid "Right on Top"
 msgstr "Arriba a la derecha"
 
-#: inc/styles.php:409
+#: inc/styles.php:416
 msgid "Left on Top"
 msgstr "Arriba a la izquierda"
 
-#: inc/styles.php:404
+#: inc/styles.php:411
 msgid "Collapse Order"
 msgstr "Orden de cierre"
 
-#: inc/styles.php:398
+#: inc/styles.php:405
 msgid "No Collapse"
 msgstr "Sin cierre"
 
-#: inc/styles.php:393
+#: inc/styles.php:400
 msgid "Collapse Behaviour"
 msgstr "Comportamiento de cierre"
 
-#: inc/styles.php:387
+#: inc/styles.php:394
 msgid "Full Width Stretched Padded"
 msgstr "Ancho completo estirada y con relleno"
 
-#: inc/styles.php:375
+#: inc/styles.php:382
 msgid "Amount of space between cells. Default is %spx."
 msgstr "Cantidad de espacio entre las celdas. Por defecto es de %spx."
 
-#: inc/styles.php:367
+#: inc/styles.php:374
 msgid "Space below the row. Default is %spx."
 msgstr "Espacio debajo de la fila. Por defecto es de %spx."
 
@@ -629,11 +637,11 @@ msgstr "Fila pegada"
 msgid "External URL"
 msgstr "URL externa"
 
-#: inc/styles-admin.php:222 inc/styles.php:423 inc/styles.php:480
+#: inc/styles-admin.php:222 inc/styles.php:430 inc/styles.php:487
 msgid "Bottom"
 msgstr "Inferior"
 
-#: inc/styles-admin.php:214 inc/styles.php:421 inc/styles.php:478
+#: inc/styles-admin.php:214 inc/styles.php:428 inc/styles.php:485
 msgid "Top"
 msgstr "Superior"
 
@@ -905,12 +913,12 @@ msgstr "documentación"
 msgid "Prebuilt Layout"
 msgstr "Diseño preinstalado"
 
-#: inc/admin.php:498 inc/admin.php:506 inc/styles.php:352
+#: inc/admin.php:498 inc/admin.php:506 inc/styles.php:359
 #: tpl/js-templates.php:68
 msgid "Row"
 msgstr "Fila"
 
-#: inc/admin.php:505 inc/styles.php:518 tpl/js-templates.php:67
+#: inc/admin.php:505 inc/styles.php:525 tpl/js-templates.php:67
 msgid "Widget"
 msgstr "Widget"
 
@@ -1082,7 +1090,7 @@ msgstr "Columnas"
 msgid "Gallery Type"
 msgstr "Tipo de galería"
 
-#: widgets/widgets.php:763
+#: inc/styles-admin.php:627 widgets/widgets.php:763
 msgid "Full"
 msgstr "Completo"
 
@@ -1221,7 +1229,7 @@ msgstr "Llamada a la acción (PB)"
 msgid "Justify"
 msgstr "Justificar"
 
-#: inc/styles.php:422 inc/styles.php:479 widgets/widgets/button/button.php:31
+#: inc/styles.php:429 inc/styles.php:486 widgets/widgets/button/button.php:31
 msgid "Center"
 msgstr "Centrada"
 
@@ -1313,7 +1321,7 @@ msgstr "Excluir fijos"
 msgid "Ignore Sticky"
 msgstr "Ignorar fijos"
 
-#: inc/styles.php:408 inc/widgets/post-loop.php:374 widgets/widgets.php:637
+#: inc/styles.php:415 inc/widgets/post-loop.php:374 widgets/widgets.php:637
 #: widgets/widgets.php:759
 msgid "Default"
 msgstr "Por defecto"
@@ -1616,11 +1624,11 @@ msgstr "Página de inicio actualizada. 1{Vista de página}."
 msgid "Custom Home Page"
 msgstr "Página de inicio personalizada"
 
-#: inc/styles-admin.php:344 tpl/admin-home-page.php:21
+#: inc/styles-admin.php:360 tpl/admin-home-page.php:21
 msgid "Off"
 msgstr "Inactiva"
 
-#: inc/styles-admin.php:344 tpl/admin-home-page.php:21
+#: inc/styles-admin.php:360 tpl/admin-home-page.php:21
 msgid "On"
 msgstr "Activa"
 
@@ -2017,7 +2025,7 @@ msgstr "Un editor de texto enriquecido"
 msgid "SiteOrigin Editor"
 msgstr "Editor SiteOrigin"
 
-#: inc/settings.php:607 inc/styles-admin.php:301
+#: inc/settings.php:607 inc/styles-admin.php:317
 msgid "Enabled"
 msgstr "Activado"
 
@@ -2065,11 +2073,11 @@ msgstr "Instalando %s"
 msgid "Install Page Builder Plugin"
 msgstr "Instalar el plugin Page Builder"
 
-#: inc/styles.php:487 inc/styles.php:532
+#: inc/styles.php:494 inc/styles.php:539
 msgid "Font Color"
 msgstr "Color de fuente"
 
-#: inc/styles.php:222
+#: inc/styles.php:229
 msgid "Border Color"
 msgstr "Color del borde"
 
@@ -2101,19 +2109,19 @@ msgstr "Imagen de fondo"
 msgid "Background Color"
 msgstr "Color del fondo"
 
-#: inc/styles.php:386
+#: inc/styles.php:393
 msgid "Full Width Stretched"
 msgstr "Ancho completo estirada"
 
-#: inc/styles.php:385
+#: inc/styles.php:392
 msgid "Full Width"
 msgstr "Ancho completo"
 
-#: inc/styles.php:384 inc/styles.php:397
+#: inc/styles.php:391 inc/styles.php:404
 msgid "Standard"
 msgstr "Estándar"
 
-#: inc/styles.php:380
+#: inc/styles.php:387
 msgid "Row Layout"
 msgstr "Estructura de la fila"
 
@@ -2125,18 +2133,18 @@ msgstr "Relleno alrededor de toda la %s."
 msgid "Padding"
 msgstr "Relleno"
 
-#: inc/styles.php:372
+#: inc/styles.php:379
 msgid "Gutter"
 msgstr "Separación"
 
-#: inc/styles.php:364
+#: inc/styles.php:371
 msgid "Bottom Margin"
 msgstr "Margen inferior"
 
-#: inc/styles.php:358
+#: inc/styles.php:365
 msgid "Class added to all cells in this row."
 msgstr "Clase añadida a todas las celdas de esta fila."
 
-#: inc/styles.php:355
+#: inc/styles.php:362
 msgid "Cell Class"
 msgstr "Clase de la celda"
