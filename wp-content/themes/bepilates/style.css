@@ -13,6 +13,29 @@ Updated: 2022-11-15 20:09:34
 
 /* HEADER WIDGETS */
 
+/*__sticky__*/
+.header-wrapper.is-sticky {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+body.sticky-navigation.admin-bar .header-wrapper.is-sticky {
+  top: 0px;
+}
+@media screen and (min-width: 601px) {
+  body.sticky-navigation.admin-bar .header-wrapper.is-sticky {
+    top: 46px;
+  }
+}
+@media screen and (min-width: 783px) {
+  body.sticky-navigation.admin-bar .header-wrapper.is-sticky {
+    top: 32px;
+  }
+}
+
+/*__widgets__*/
 .header-widgets .container {
   display: flex;
   flex-wrap: nowrap;
