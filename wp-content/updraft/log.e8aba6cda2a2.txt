@@ -1,0 +1,611 @@
+0000.000 (0) Opened log file at time: Mon, 28 Nov 2022 20:39:48 +0000 on http://localhost:8888/bepilates
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 7.4.21 (apache2handler, Darwin iMac-de-Alberto-722.local 17.7.0 Darwin Kernel Version 17.7.0: Fri Oct 30 13:34:27 PDT 2020; root:xnu-4570.71.82.8~1/RELEASE_X86_64 x86_64) MySQL: 5.7.34 (max packet size=4194304) WPLANG: es_ES Server: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28M | 30M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 133263.1 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.012 (0) Semaphore (fd, wp_options) being initialised
+0000.016 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.019 (0) Set semaphore last lock (fd) time to 2022-11-28 20:39:49
+0000.021 (0) Semaphore lock (fd) complete
+0000.026 (0) Backup run: resumption=0, nonce=e8aba6cda2a2, file_nonce=e8aba6cda2a2 begun at=1669667988 (1s ago), job type=backup
+0000.028 (0) Scheduling a resumption (1) after 300 seconds (1669668289) in case this run gets aborted
+0000.084 (0) Checking if we have a zip executable available
+0000.086 (0) Testing: /usr/bin/zip
+0000.094 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.095 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.097 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.098 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.099 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.108 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.111 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.114 (0) Working binary zip found: /usr/bin/zip
+0000.117 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.118 (0) Creation of backups of directories: beginning
+0000.124 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.506 (0) Total entities for the zip file: 3053 directories, 17445 files (0 skipped as non-modified), 167.8 MB
+0001.518 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.525 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.533 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.540 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.548 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.555 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.564 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.570 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.580 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.586 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.588 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.9 MB, 17445 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.285 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: size is now: 8.90 MB
+0003.294 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 1100 files added (on-disk size: 9148.4 KB)
+0003.302 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 1200 files added (on-disk size: 9148.4 KB)
+0003.315 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 1300 files added (on-disk size: 9148.4 KB)
+0003.322 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 1400 files added (on-disk size: 9148.4 KB)
+0003.328 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 1500 files added (on-disk size: 9148.4 KB)
+0003.335 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 1600 files added (on-disk size: 9148.4 KB)
+0003.341 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 1700 files added (on-disk size: 9148.4 KB)
+0003.348 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 1800 files added (on-disk size: 9148.4 KB)
+0003.355 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 1900 files added (on-disk size: 9148.4 KB)
+0003.360 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 2000 files added (on-disk size: 9148.4 KB)
+0003.362 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.3 MB, 17445 files batched, 1001 (2002) added so far); re-opening (prior size: 9148.4 KB)
+0004.286 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: size is now: 12.50 MB
+0004.493 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 2100 files added (on-disk size: 12784.7 KB)
+0004.524 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 2200 files added (on-disk size: 12784.7 KB)
+0004.530 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 2300 files added (on-disk size: 12784.7 KB)
+0004.538 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 2400 files added (on-disk size: 12784.7 KB)
+0004.545 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 2500 files added (on-disk size: 12784.7 KB)
+0004.552 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 2600 files added (on-disk size: 12784.7 KB)
+0004.557 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 2700 files added (on-disk size: 12784.7 KB)
+0004.564 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 2800 files added (on-disk size: 12784.7 KB)
+0004.607 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 2900 files added (on-disk size: 12784.7 KB)
+0004.613 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 3000 files added (on-disk size: 12784.7 KB)
+0004.614 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.5 MB, 17445 files batched, 1001 (3003) added so far); re-opening (prior size: 12784.7 KB)
+0005.145 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 3100 files added (on-disk size: 14273.6 KB)
+0005.152 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 3200 files added (on-disk size: 14273.6 KB)
+0005.159 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 3300 files added (on-disk size: 14273.6 KB)
+0005.164 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 3400 files added (on-disk size: 14273.6 KB)
+0005.172 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 3500 files added (on-disk size: 14273.6 KB)
+0005.179 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 3600 files added (on-disk size: 14273.6 KB)
+0005.186 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 3700 files added (on-disk size: 14273.6 KB)
+0005.192 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 3800 files added (on-disk size: 14273.6 KB)
+0005.198 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 3900 files added (on-disk size: 14273.6 KB)
+0005.205 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 4000 files added (on-disk size: 14273.6 KB)
+0005.206 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.6 MB, 17445 files batched, 1001 (4004) added so far); re-opening (prior size: 14273.6 KB)
+0005.731 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 4100 files added (on-disk size: 15893.3 KB)
+0005.739 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 4200 files added (on-disk size: 15893.3 KB)
+0005.745 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 4300 files added (on-disk size: 15893.3 KB)
+0005.751 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 4400 files added (on-disk size: 15893.3 KB)
+0005.759 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 4500 files added (on-disk size: 15893.3 KB)
+0005.765 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 4600 files added (on-disk size: 15893.3 KB)
+0005.773 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 4700 files added (on-disk size: 15893.3 KB)
+0005.779 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 4800 files added (on-disk size: 15893.3 KB)
+0005.786 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 4900 files added (on-disk size: 15893.3 KB)
+0005.792 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 5000 files added (on-disk size: 15893.3 KB)
+0005.794 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.4 MB, 17445 files batched, 1001 (5005) added so far); re-opening (prior size: 15893.3 KB)
+0006.363 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 5100 files added (on-disk size: 17199.6 KB)
+0006.370 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 5200 files added (on-disk size: 17199.6 KB)
+0006.376 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 5300 files added (on-disk size: 17199.6 KB)
+0006.382 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 5400 files added (on-disk size: 17199.6 KB)
+0006.389 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 5500 files added (on-disk size: 17199.6 KB)
+0006.395 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 5600 files added (on-disk size: 17199.6 KB)
+0006.401 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 5700 files added (on-disk size: 17199.6 KB)
+0006.408 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 5800 files added (on-disk size: 17199.6 KB)
+0006.414 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 5900 files added (on-disk size: 17199.6 KB)
+0006.420 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 6000 files added (on-disk size: 17199.6 KB)
+0006.422 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.2 MB, 17445 files batched, 1001 (6006) added so far); re-opening (prior size: 17199.6 KB)
+0006.925 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 6100 files added (on-disk size: 18699.5 KB)
+0006.932 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 6200 files added (on-disk size: 18699.5 KB)
+0006.939 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 6300 files added (on-disk size: 18699.5 KB)
+0006.946 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 6400 files added (on-disk size: 18699.5 KB)
+0006.952 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 6500 files added (on-disk size: 18699.5 KB)
+0006.958 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 6600 files added (on-disk size: 18699.5 KB)
+0006.965 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 6700 files added (on-disk size: 18699.5 KB)
+0006.971 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 6800 files added (on-disk size: 18699.5 KB)
+0006.978 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 6900 files added (on-disk size: 18699.5 KB)
+0006.984 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 7000 files added (on-disk size: 18699.5 KB)
+0006.986 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.2 MB, 17445 files batched, 1001 (7007) added so far); re-opening (prior size: 18699.5 KB)
+0007.825 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 7100 files added (on-disk size: 22198.5 KB)
+0007.831 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 7200 files added (on-disk size: 22198.5 KB)
+0007.838 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 7300 files added (on-disk size: 22198.5 KB)
+0007.845 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 7400 files added (on-disk size: 22198.5 KB)
+0007.851 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 7500 files added (on-disk size: 22198.5 KB)
+0007.858 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 7600 files added (on-disk size: 22198.5 KB)
+0007.864 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 7700 files added (on-disk size: 22198.5 KB)
+0007.871 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 7800 files added (on-disk size: 22198.5 KB)
+0007.878 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 7900 files added (on-disk size: 22198.5 KB)
+0007.884 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 8000 files added (on-disk size: 22198.5 KB)
+0007.886 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.8 MB, 17445 files batched, 1001 (8008) added so far); re-opening (prior size: 22198.5 KB)
+0008.305 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 8100 files added (on-disk size: 23397 KB)
+0008.313 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 8200 files added (on-disk size: 23397 KB)
+0008.319 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 8300 files added (on-disk size: 23397 KB)
+0008.326 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 8400 files added (on-disk size: 23397 KB)
+0008.332 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 8500 files added (on-disk size: 23397 KB)
+0008.339 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 8600 files added (on-disk size: 23397 KB)
+0008.346 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 8700 files added (on-disk size: 23397 KB)
+0008.352 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 8800 files added (on-disk size: 23397 KB)
+0008.359 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 8900 files added (on-disk size: 23397 KB)
+0008.366 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 9000 files added (on-disk size: 23397 KB)
+0008.368 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.2 MB, 17445 files batched, 1001 (9009) added so far); re-opening (prior size: 23397 KB)
+0008.964 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 9100 files added (on-disk size: 24950 KB)
+0008.970 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 9200 files added (on-disk size: 24950 KB)
+0008.977 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 9300 files added (on-disk size: 24950 KB)
+0008.983 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 9400 files added (on-disk size: 24950 KB)
+0008.990 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 9500 files added (on-disk size: 24950 KB)
+0008.996 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 9600 files added (on-disk size: 24950 KB)
+0009.001 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 9700 files added (on-disk size: 24950 KB)
+0009.008 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 9800 files added (on-disk size: 24950 KB)
+0009.014 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 9900 files added (on-disk size: 24950 KB)
+0009.021 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 10000 files added (on-disk size: 24950 KB)
+0009.023 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.5 MB, 17445 files batched, 1001 (10010) added so far); re-opening (prior size: 24950 KB)
+0009.697 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 10100 files added (on-disk size: 26394.5 KB)
+0009.706 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 10200 files added (on-disk size: 26394.5 KB)
+0009.712 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 10300 files added (on-disk size: 26394.5 KB)
+0009.718 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 10400 files added (on-disk size: 26394.5 KB)
+0009.725 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 10500 files added (on-disk size: 26394.5 KB)
+0009.731 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 10600 files added (on-disk size: 26394.5 KB)
+0009.738 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 10700 files added (on-disk size: 26394.5 KB)
+0009.744 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 10800 files added (on-disk size: 26394.5 KB)
+0009.751 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 10900 files added (on-disk size: 26394.5 KB)
+0009.757 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 11000 files added (on-disk size: 26394.5 KB)
+0009.759 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.3 MB, 17445 files batched, 1001 (11011) added so far); re-opening (prior size: 26394.5 KB)
+0011.556 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: size is now: 38.20 MB
+0011.575 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 11100 files added (on-disk size: 39074.9 KB)
+0011.582 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 11200 files added (on-disk size: 39074.9 KB)
+0011.589 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 11300 files added (on-disk size: 39074.9 KB)
+0011.595 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 11400 files added (on-disk size: 39074.9 KB)
+0011.602 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 11500 files added (on-disk size: 39074.9 KB)
+0011.609 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 11600 files added (on-disk size: 39074.9 KB)
+0011.616 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 11700 files added (on-disk size: 39074.9 KB)
+0011.622 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 11800 files added (on-disk size: 39074.9 KB)
+0011.630 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 11900 files added (on-disk size: 39074.9 KB)
+0011.636 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 12000 files added (on-disk size: 39074.9 KB)
+0011.638 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.9 MB, 17445 files batched, 1001 (12012) added so far); re-opening (prior size: 39074.9 KB)
+0012.751 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 12100 files added (on-disk size: 46330.5 KB)
+0012.757 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 12200 files added (on-disk size: 46330.5 KB)
+0012.764 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 12300 files added (on-disk size: 46330.5 KB)
+0012.771 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 12400 files added (on-disk size: 46330.5 KB)
+0012.776 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 12500 files added (on-disk size: 46330.5 KB)
+0012.783 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 12600 files added (on-disk size: 46330.5 KB)
+0012.789 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 12700 files added (on-disk size: 46330.5 KB)
+0012.796 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 12800 files added (on-disk size: 46330.5 KB)
+0012.803 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 12900 files added (on-disk size: 46330.5 KB)
+0012.809 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 13000 files added (on-disk size: 46330.5 KB)
+0012.811 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.6 MB, 17445 files batched, 1001 (13013) added so far); re-opening (prior size: 46330.5 KB)
+0014.078 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 13100 files added (on-disk size: 51971.8 KB)
+0014.090 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 13200 files added (on-disk size: 51971.8 KB)
+0014.097 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 13300 files added (on-disk size: 51971.8 KB)
+0014.104 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 13400 files added (on-disk size: 51971.8 KB)
+0014.111 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 13500 files added (on-disk size: 51971.8 KB)
+0014.119 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 13600 files added (on-disk size: 51971.8 KB)
+0014.125 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 13700 files added (on-disk size: 51971.8 KB)
+0014.133 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 13800 files added (on-disk size: 51971.8 KB)
+0014.140 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 13900 files added (on-disk size: 51971.8 KB)
+0014.145 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 14000 files added (on-disk size: 51971.8 KB)
+0014.148 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.9 MB, 17445 files batched, 1001 (14014) added so far); re-opening (prior size: 51971.8 KB)
+0015.741 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 14100 files added (on-disk size: 56417.1 KB)
+0015.748 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 14200 files added (on-disk size: 56417.1 KB)
+0015.755 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 14300 files added (on-disk size: 56417.1 KB)
+0015.761 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 14400 files added (on-disk size: 56417.1 KB)
+0015.768 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 14500 files added (on-disk size: 56417.1 KB)
+0015.776 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 14600 files added (on-disk size: 56417.1 KB)
+0015.784 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 14700 files added (on-disk size: 56417.1 KB)
+0015.791 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 14800 files added (on-disk size: 56417.1 KB)
+0015.797 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 14900 files added (on-disk size: 56417.1 KB)
+0015.804 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 15000 files added (on-disk size: 56417.1 KB)
+0015.806 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.3 MB, 17445 files batched, 1001 (15015) added so far); re-opening (prior size: 56417.1 KB)
+0017.193 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 15100 files added (on-disk size: 58342.9 KB)
+0017.199 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 15200 files added (on-disk size: 58342.9 KB)
+0017.206 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 15300 files added (on-disk size: 58342.9 KB)
+0017.212 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 15400 files added (on-disk size: 58342.9 KB)
+0017.218 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 15500 files added (on-disk size: 58342.9 KB)
+0017.225 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 15600 files added (on-disk size: 58342.9 KB)
+0017.232 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 15700 files added (on-disk size: 58342.9 KB)
+0017.238 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 15800 files added (on-disk size: 58342.9 KB)
+0017.244 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 15900 files added (on-disk size: 58342.9 KB)
+0017.251 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 16000 files added (on-disk size: 58342.9 KB)
+0017.254 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.5 MB, 17445 files batched, 1001 (16016) added so far); re-opening (prior size: 58342.9 KB)
+0018.634 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 16100 files added (on-disk size: 59881.9 KB)
+0018.642 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 16200 files added (on-disk size: 59881.9 KB)
+0018.649 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 16300 files added (on-disk size: 59881.9 KB)
+0018.656 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 16400 files added (on-disk size: 59881.9 KB)
+0018.662 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 16500 files added (on-disk size: 59881.9 KB)
+0018.670 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 16600 files added (on-disk size: 59881.9 KB)
+0018.676 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 16700 files added (on-disk size: 59881.9 KB)
+0018.683 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 16800 files added (on-disk size: 59881.9 KB)
+0018.690 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 16900 files added (on-disk size: 59881.9 KB)
+0018.697 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 17000 files added (on-disk size: 59881.9 KB)
+0018.700 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.5 MB, 17445 files batched, 1001 (17017) added so far); re-opening (prior size: 59881.9 KB)
+0020.141 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 17100 files added (on-disk size: 62290.7 KB)
+0020.147 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 17200 files added (on-disk size: 62290.7 KB)
+0020.155 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 17300 files added (on-disk size: 62290.7 KB)
+0020.162 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.tmp: 17400 files added (on-disk size: 62290.7 KB)
+0022.092 (0) Creating zip file manifest (backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.list-temp.tmp)
+0022.233 (0) Successfully created zip file manifest (size: 1747084)
+0024.215 (0) Created plugins zip (0) - 62777.2 KB in 24.1 s (2606.2 KB/s) (sha1: 5bc1fd7f0ef789bfc4a4b9d1d5c2a355f1cce0d4, sha256: 19465881c6160203fb8158cee83ed0cf98b2c0d998c3e2da0cd8912c47e92d6a)
+0024.252 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0024.253 (0) No remote despatch: user chose no remote backup service
+0024.255 (0) Recording as successfully uploaded: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip
+0024.257 (0) Deleting zip manifest (backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip.list.tmp)
+0024.261 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0024.263 (0) Number of backup sets in history: 0; groups (db): 1
+0024.264 (0) Number of backup sets in history: 0; groups (files): 1
+0024.266 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0024.274 (0) Beginning creation of dump of themes (split every: 400 MB)
+0024.336 (0) Total entities for the zip file: 147 directories, 748 files (0 skipped as non-modified), 28.4 MB
+0024.344 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0024.351 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0024.358 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0024.365 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0024.372 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0024.379 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0024.383 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 748 files batched, 636 (636) added so far); re-opening (prior size: 0 KB)
+0026.146 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-themes.zip.tmp: size is now: 18.10 MB
+0026.192 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 11752.1 KB/s)
+0026.194 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.1912169456482, normalised_time=2.1783322083576, max_time=26.19272518158, data points known=1, old_max_bytes=26214400, new_max_bytes=189124479)
+0026.201 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-themes.zip.tmp: 700 files added (on-disk size: 18552.2 KB)
+0026.802 (0) Creating zip file manifest (backup_2022-11-28-2039_BePilates_e8aba6cda2a2-themes.zip.list-temp.tmp)
+0026.809 (0) Successfully created zip file manifest (size: 56287)
+0027.585 (0) Created themes zip (0) - 21779 KB in 3.3 s (6587.8 KB/s) (sha1: 49c29f63311caf378e02a15f28ff45d024ca7262, sha256: 781c42254e1b678c2a42f5a3a27ae9aa488f3fdf9dfe2d2ffe8bac79c22dae6b)
+0027.595 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0027.597 (0) No remote despatch: user chose no remote backup service
+0027.599 (0) Recording as successfully uploaded: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-themes.zip
+0027.604 (0) Deleting zip manifest (backup_2022-11-28-2039_BePilates_e8aba6cda2a2-themes.zip.list.tmp)
+0027.609 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0027.612 (0) Number of backup sets in history: 0; groups (db): 1
+0027.613 (0) Number of backup sets in history: 0; groups (files): 1
+0027.616 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0027.628 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0027.633 (0) Looking for candidates to backup in: /Applications/MAMP/htdocs/bepilates/wp-content/uploads
+0027.647 (0) finding files: 2015: adding to list (1)
+0027.650 (0) finding files: 2016: adding to list (2)
+0027.656 (0) finding files: 2019: adding to list (3)
+0027.662 (0) finding files: 2022: adding to list (4)
+0027.673 (0) finding files: backwpup-eefc27-logs: skipping: excluded by options (glob)
+0027.680 (0) finding files: backwpup-eefc27-temp: skipping: excluded by options (glob)
+0027.686 (0) finding files: wc-logs: adding to list (5)
+0027.692 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (6)
+0027.699 (0) finding files: woocommerce-placeholder-1200x715.png: adding to list (7)
+0027.706 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (8)
+0027.710 (0) finding files: woocommerce-placeholder-272x182.png: adding to list (9)
+0027.718 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (10)
+0027.724 (0) finding files: woocommerce-placeholder-360x180.png: adding to list (11)
+0027.732 (0) finding files: woocommerce-placeholder-360x240.png: adding to list (12)
+0027.739 (0) finding files: woocommerce-placeholder-480x179.png: adding to list (13)
+0027.746 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (14)
+0027.752 (0) finding files: woocommerce-placeholder-848x448.png: adding to list (15)
+0027.756 (0) finding files: woocommerce-placeholder-850x567.png: adding to list (16)
+0027.762 (0) finding files: woocommerce-placeholder-960x358.png: adding to list (17)
+0027.769 (0) finding files: woocommerce-placeholder.png: adding to list (18)
+0027.777 (0) finding files: woocommerce_uploads: adding to list (19)
+0027.791 (0) finding files: wpcf7_uploads: adding to list (20)
+0027.799 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0027.887 (0) Total entities for the zip file: 12 directories, 1000 files (0 skipped as non-modified), 54.9 MB
+0027.895 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0027.902 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0027.910 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0027.916 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0027.922 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0027.929 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0027.936 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0027.943 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0027.950 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0027.957 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0032.569 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.tmp: size is now: 55.10 MB
+0032.623 (0) Creating zip file manifest (backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.list-temp.tmp)
+0032.633 (0) Successfully created zip file manifest (size: 53741)
+0034.347 (0) Created uploads zip (0) - 56445.1 KB in 6.5 s (8630 KB/s) (sha1: 0d44ddcf0d2cbdeff3b724907006e6b8dcc9ec47, sha256: 3285d98bfcef5d0335d603a9f6556a89145120fc9dde955c3a67e2c8299def62)
+0034.354 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0034.355 (0) No remote despatch: user chose no remote backup service
+0034.357 (0) Recording as successfully uploaded: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip
+0034.360 (0) Deleting zip manifest (backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip.list.tmp)
+0034.363 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0034.365 (0) Number of backup sets in history: 0; groups (db): 1
+0034.367 (0) Number of backup sets in history: 0; groups (files): 1
+0034.368 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0034.376 (0) Beginning backup of other directories found in the content directory (index: 0)
+0034.377 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0034.379 (0) Looking for candidates to backup in: /Applications/MAMP/htdocs/bepilates/wp-content
+0034.380 (0) finding files: .DS_Store: adding to list (1)
+0034.382 (0) finding files: backup-migration: skipping: excluded by options (glob)
+0034.383 (0) finding files: index.php: adding to list (2)
+0034.385 (0) finding files: languages: adding to list (3)
+0034.386 (0) finding files: plugins: skipping: this is the plugins directory
+0034.387 (0) finding files: themes: skipping: this is the themes directory
+0034.389 (0) finding files: updraft: skipping: this is the updraft directory
+0034.390 (0) finding files: upgrade: skipping: excluded by options
+0034.391 (0) finding files: uploads: skipping: this is the uploads directory
+0034.420 (0) Total entities for the zip file: 3 directories, 395 files (0 skipped as non-modified), 7.1 MB
+0034.426 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0034.432 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0034.438 (0) Zip: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0035.338 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-others.zip.tmp: size is now: 2.10 MB
+0035.365 (0) Creating zip file manifest (backup_2022-11-28-2039_BePilates_e8aba6cda2a2-others.zip.list-temp.tmp)
+0035.371 (0) Successfully created zip file manifest (size: 30517)
+0035.457 (0) Created others zip (0) - 2148.5 KB in 1.1 s (2024.5 KB/s) (sha1: 8a257a6586097b715abd6fbfdcd19cbf5db802ce, sha256: e3411d52de0f81c12246c9b86d6de78dd1755f2cbf7474b260b9d01ff1216c10)
+0035.463 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0035.464 (0) No remote despatch: user chose no remote backup service
+0035.466 (0) Recording as successfully uploaded: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-others.zip
+0035.471 (0) Deleting zip manifest (backup_2022-11-28-2039_BePilates_e8aba6cda2a2-others.zip.list.tmp)
+0035.474 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0035.476 (0) Number of backup sets in history: 0; groups (db): 1
+0035.477 (0) Number of backup sets in history: 0; groups (files): 1
+0035.478 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0035.489 (0) Saving backup status to database (elements: 8)
+0035.493 (0) Beginning creation of database dump (WordPress DB)
+0035.494 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0035.624 (0) Table wp_options: Total expected rows (via COUNT): 576
+0035.843 (0) Table wp_options: Rows added in this batch (next record: 2949): 572 (uncompressed bytes in this segment=1984067) in 0.22 seconds
+0035.853 (0) Table wp_options: finishing file(s) (2, 472 KB)
+0035.858 (0) Table wp_users: Total expected rows (via COUNT): 1
+0035.859 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.863 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1393) in 0.01 seconds
+0035.869 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0035.877 (0) Table wp_usermeta: Total expected rows (via COUNT): 35
+0035.879 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.883 (0) Table wp_usermeta: Rows added in this batch (next record: 40): 35 (uncompressed bytes in this segment=4484) in 0.01 seconds
+0035.889 (0) Table wp_usermeta: finishing file(s) (2, 2 KB)
+0035.897 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 29
+0035.899 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.903 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 36): 29 (uncompressed bytes in this segment=12524) in 0.01 seconds
+0035.911 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.8 KB)
+0035.915 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0035.919 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=606) in 0.01 seconds
+0035.925 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0035.930 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0035.932 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.936 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=744) in 0.01 seconds
+0035.943 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0035.947 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 83
+0035.949 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.954 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 83): 83 (uncompressed bytes in this segment=7940) in 0.01 seconds
+0035.960 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0035.968 (0) Table wp_commentmeta: Total expected rows (via COUNT): 30
+0035.970 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.974 (0) Table wp_commentmeta: Rows added in this batch (next record: 30): 30 (uncompressed bytes in this segment=1531) in 0.01 seconds
+0035.981 (0) Table wp_commentmeta: finishing file(s) (2, 0.6 KB)
+0035.987 (0) Table wp_comments: Total expected rows (via COUNT): 19
+0035.988 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0036.009 (0) Table wp_comments: Rows added in this batch (next record: 19): 19 (uncompressed bytes in this segment=6407) in 0.02 seconds
+0036.019 (0) Table wp_comments: finishing file(s) (2, 2 KB)
+0036.041 (0) Table wp_links: Total expected rows (via COUNT): 0
+0036.083 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.04 seconds
+0036.089 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0036.332 (0) Table wp_postmeta: Total expected rows (approximate): 10942
+0036.606 (0) Table wp_postmeta: Rows added in this batch (next record: 9264): 9075 (uncompressed bytes in this segment=2703156) in 0.29 seconds
+0036.614 (0) Table wp_postmeta: finishing file(s) (2, 307.1 KB)
+0036.623 (0) Table wp_posts: Total expected rows (via COUNT): 372
+0036.624 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0036.790 (0) Table wp_posts: Rows added in this batch (next record: 8023): 372 (uncompressed bytes in this segment=3162753) in 0.17 seconds
+0036.798 (0) Table wp_posts: finishing file(s) (2, 253.6 KB)
+0036.803 (0) Table wp_term_relationships: Total expected rows (approximate): 108
+0036.807 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 108 (uncompressed bytes in this segment=2369) in 0.01 seconds
+0036.813 (0) Table wp_term_relationships: finishing file(s) (2, 0.7 KB)
+0036.820 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 38
+0036.821 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0036.825 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 38): 38 (uncompressed bytes in this segment=2266) in 0.01 seconds
+0036.832 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0036.839 (0) Table wp_termmeta: Total expected rows (via COUNT): 15
+0036.840 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0036.844 (0) Table wp_termmeta: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=1176) in 0.01 seconds
+0036.852 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0036.857 (0) Table wp_terms: Total expected rows (via COUNT): 38
+0036.858 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0036.862 (0) Table wp_terms: Rows added in this batch (next record: 38): 38 (uncompressed bytes in this segment=2175) in 0.01 seconds
+0036.867 (0) Table wp_terms: finishing file(s) (2, 0.9 KB)
+0036.872 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 6
+0036.875 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=644) in 0.00 seconds
+0036.881 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0036.886 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0036.887 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1361) in 0.00 seconds
+0036.894 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0036.898 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0036.900 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=665) in 0.00 seconds
+0036.906 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0036.910 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0036.912 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0036.916 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=812) in 0.01 seconds
+0036.922 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0036.928 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0036.931 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=771) in 0.01 seconds
+0036.939 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0036.946 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0036.948 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0036.955 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0036.962 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 52
+0036.963 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0036.969 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 1105): 52 (uncompressed bytes in this segment=9541) in 0.01 seconds
+0036.976 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.2 KB)
+0036.984 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 44
+0036.986 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0036.992 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 44): 44 (uncompressed bytes in this segment=22060) in 0.01 seconds
+0037.000 (0) Table wp_wc_admin_notes: finishing file(s) (2, 6.1 KB)
+0037.005 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0037.008 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0037.013 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0037.018 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0037.020 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.00 seconds
+0037.026 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0037.030 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0037.032 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=717) in 0.00 seconds
+0037.037 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0037.042 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0037.043 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1227) in 0.00 seconds
+0037.049 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0037.055 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0037.057 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1122) in 0.00 seconds
+0037.062 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0037.067 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0037.069 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=799) in 0.00 seconds
+0037.075 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0037.079 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0037.081 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=862) in 0.00 seconds
+0037.086 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0037.091 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0037.092 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.095 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=933) in 0.01 seconds
+0037.101 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0037.107 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0037.110 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.00 seconds
+0037.115 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0037.120 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0037.122 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.00 seconds
+0037.128 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0037.135 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0037.137 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1046) in 0.01 seconds
+0037.144 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0037.149 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0037.151 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=961) in 0.00 seconds
+0037.156 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0037.161 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0037.162 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1538) in 0.00 seconds
+0037.169 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0037.177 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0037.178 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.00 seconds
+0037.185 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0037.190 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0037.191 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0037.197 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0037.224 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0037.226 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.00 seconds
+0037.231 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0037.238 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0037.239 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.243 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 10): 1 (uncompressed bytes in this segment=2193) in 0.01 seconds
+0037.250 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0037.255 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0037.256 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.258 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=977) in 0.00 seconds
+0037.264 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0037.269 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0037.270 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.272 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=882) in 0.00 seconds
+0037.277 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0037.282 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0037.283 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.285 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=721) in 0.00 seconds
+0037.292 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0037.297 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0037.301 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.00 seconds
+0037.307 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0037.313 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0037.314 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1301) in 0.00 seconds
+0037.320 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0037.323 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_options.table.tmpr2950.gz (1/46/fopen): adding to final database dump
+0037.338 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_options.table.gz (2/46/fopen): adding to final database dump
+0037.340 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_users.table.tmpr2.gz (3/46/fopen): adding to final database dump
+0037.341 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_users.table.gz (4/46/fopen): adding to final database dump
+0037.342 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_usermeta.table.tmpr41.gz (5/46/fopen): adding to final database dump
+0037.344 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_usermeta.table.gz (6/46/fopen): adding to final database dump
+0037.345 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_actionscheduler_actions.table.tmpr37.gz (7/46/fopen): adding to final database dump
+0037.346 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_actionscheduler_actions.table.gz (8/46/fopen): adding to final database dump
+0037.348 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/46/fopen): adding to final database dump
+0037.349 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_actionscheduler_claims.table.gz (10/46/fopen): adding to final database dump
+0037.350 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/46/fopen): adding to final database dump
+0037.352 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_actionscheduler_groups.table.gz (12/46/fopen): adding to final database dump
+0037.353 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_actionscheduler_logs.table.tmpr84.gz (13/46/fopen): adding to final database dump
+0037.355 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_actionscheduler_logs.table.gz (14/46/fopen): adding to final database dump
+0037.356 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_commentmeta.table.tmpr31.gz (15/46/fopen): adding to final database dump
+0037.357 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_commentmeta.table.gz (16/46/fopen): adding to final database dump
+0037.358 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_comments.table.tmpr20.gz (17/46/fopen): adding to final database dump
+0037.360 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_comments.table.gz (18/46/fopen): adding to final database dump
+0037.361 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_links.table.tmpr0.gz (19/46/fopen): adding to final database dump
+0037.363 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_links.table.gz (20/46/fopen): adding to final database dump
+0037.364 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_postmeta.table.tmpr9265.gz (21/46/fopen): adding to final database dump
+0037.375 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_postmeta.table.gz (22/46/fopen): adding to final database dump
+0037.377 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_posts.table.tmpr8024.gz (23/46/fopen): adding to final database dump
+0037.387 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_posts.table.gz (24/46/fopen): adding to final database dump
+0037.389 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_term_relationships.table.tmpr100001.gz (25/46/fopen): adding to final database dump
+0037.390 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_term_relationships.table.gz (26/46/fopen): adding to final database dump
+0037.391 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_term_taxonomy.table.tmpr39.gz (27/46/fopen): adding to final database dump
+0037.393 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_term_taxonomy.table.gz (28/46/fopen): adding to final database dump
+0037.394 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_termmeta.table.tmpr16.gz (29/46/fopen): adding to final database dump
+0037.396 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_termmeta.table.gz (30/46/fopen): adding to final database dump
+0037.397 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_terms.table.tmpr39.gz (31/46/fopen): adding to final database dump
+0037.398 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_terms.table.gz (32/46/fopen): adding to final database dump
+0037.400 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/46/fopen): adding to final database dump
+0037.401 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_category_lookup.table.gz (34/46/fopen): adding to final database dump
+0037.402 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_product_meta_lookup.table.tmpr0.gz (35/46/fopen): adding to final database dump
+0037.404 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_product_meta_lookup.table.gz (36/46/fopen): adding to final database dump
+0037.405 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/46/fopen): adding to final database dump
+0037.407 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_reserved_stock.table.gz (38/46/fopen): adding to final database dump
+0037.408 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/46/fopen): adding to final database dump
+0037.409 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_tax_rate_classes.table.gz (40/46/fopen): adding to final database dump
+0037.410 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (41/46/fopen): adding to final database dump
+0037.412 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_order_itemmeta.table.gz (42/46/fopen): adding to final database dump
+0037.413 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/46/fopen): adding to final database dump
+0037.414 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/46/fopen): adding to final database dump
+0037.415 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_admin_note_actions.table.tmpr1106.gz (45/46/fopen): adding to final database dump
+0037.417 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_admin_note_actions.table.gz (46/46/fopen): adding to final database dump
+0037.418 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_admin_notes.table.tmpr45.gz (47/46/fopen): adding to final database dump
+0037.420 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_admin_notes.table.gz (48/46/fopen): adding to final database dump
+0037.422 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_customer_lookup.table.tmpr0.gz (49/46/fopen): adding to final database dump
+0037.423 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_customer_lookup.table.gz (50/46/fopen): adding to final database dump
+0037.424 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_download_log.table.tmpr0.gz (51/46/fopen): adding to final database dump
+0037.426 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_download_log.table.gz (52/46/fopen): adding to final database dump
+0037.427 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (53/46/fopen): adding to final database dump
+0037.429 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_order_coupon_lookup.table.gz (54/46/fopen): adding to final database dump
+0037.430 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (55/46/fopen): adding to final database dump
+0037.431 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_order_product_lookup.table.gz (56/46/fopen): adding to final database dump
+0037.432 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_order_stats.table.tmpr0.gz (57/46/fopen): adding to final database dump
+0037.434 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_order_stats.table.gz (58/46/fopen): adding to final database dump
+0037.435 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (59/46/fopen): adding to final database dump
+0037.437 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_order_tax_lookup.table.gz (60/46/fopen): adding to final database dump
+0037.438 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (61/46/fopen): adding to final database dump
+0037.439 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_product_attributes_lookup.table.gz (62/46/fopen): adding to final database dump
+0037.440 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_product_download_directories.table.tmpr3.gz (63/46/fopen): adding to final database dump
+0037.441 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_product_download_directories.table.gz (64/46/fopen): adding to final database dump
+0037.443 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_rate_limits.table.tmpr0.gz (65/46/fopen): adding to final database dump
+0037.444 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_rate_limits.table.gz (66/46/fopen): adding to final database dump
+0037.445 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_webhooks.table.tmpr0.gz (67/46/fopen): adding to final database dump
+0037.446 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_wc_webhooks.table.gz (68/46/fopen): adding to final database dump
+0037.448 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (69/46/fopen): adding to final database dump
+0037.449 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_api_keys.table.gz (70/46/fopen): adding to final database dump
+0037.451 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (71/46/fopen): adding to final database dump
+0037.453 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_attribute_taxonomies.table.gz (72/46/fopen): adding to final database dump
+0037.455 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (73/46/fopen): adding to final database dump
+0037.456 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (74/46/fopen): adding to final database dump
+0037.458 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_log.table.tmpr0.gz (75/46/fopen): adding to final database dump
+0037.459 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_log.table.gz (76/46/fopen): adding to final database dump
+0037.461 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_order_items.table.tmpr0.gz (77/46/fopen): adding to final database dump
+0037.462 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_order_items.table.gz (78/46/fopen): adding to final database dump
+0037.463 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (79/46/fopen): adding to final database dump
+0037.464 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_payment_tokens.table.gz (80/46/fopen): adding to final database dump
+0037.465 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_sessions.table.tmpr11.gz (81/46/fopen): adding to final database dump
+0037.466 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_sessions.table.gz (82/46/fopen): adding to final database dump
+0037.468 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr2.gz (83/46/fopen): adding to final database dump
+0037.469 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_shipping_zone_locations.table.gz (84/46/fopen): adding to final database dump
+0037.471 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr2.gz (85/46/fopen): adding to final database dump
+0037.472 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_shipping_zone_methods.table.gz (86/46/fopen): adding to final database dump
+0037.474 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (87/46/fopen): adding to final database dump
+0037.475 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_shipping_zones.table.gz (88/46/fopen): adding to final database dump
+0037.476 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (89/46/fopen): adding to final database dump
+0037.477 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_tax_rate_locations.table.gz (90/46/fopen): adding to final database dump
+0037.479 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (91/46/fopen): adding to final database dump
+0037.480 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db-table-wp_woocommerce_tax_rates.table.gz (92/46/fopen): adding to final database dump
+0037.487 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db.gz: finished writing out complete database file (1065.4 KB)
+0037.532 (0) Total database tables backed up: 46 (backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db.gz, size: 1091049, sha1: ae34db7c54a945da0a18889a0beaad05da6740fe, sha256: dbe438e5b5a68d628c72cf01f32b68fa085dd79867849afa7a22d390f10c31ec)
+0037.540 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-plugins.zip: plugins: This file has already been successfully uploaded
+0037.541 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-themes.zip: themes: This file has already been successfully uploaded
+0037.542 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-uploads.zip: uploads: This file has already been successfully uploaded
+0037.543 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-others.zip: others: This file has already been successfully uploaded
+0037.545 (0) backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0037.546 (0) Saving backup history. Total backup size: 140.8 MB
+0037.550 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0037.555 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0037.556 (0) No remote despatch: user chose no remote backup service
+0037.557 (0) Recording as successfully uploaded: backup_2022-11-28-2039_BePilates_e8aba6cda2a2-db.gz
+0037.563 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0037.565 (0) Number of backup sets in history: 1; groups (db): 1
+0037.566 (0) Examining (for databases) backup set with group_id=0, nonce=e8aba6cda2a2, datestamp=1669667988 (Nov 28 2022 20:39:48)
+0037.567 (0) This backup set is the backup set just made, so will not be deleted.
+0037.568 (0) Number of backup sets in history: 1; groups (files): 1
+0037.569 (0) Examining (for files) backup set with nonce=e8aba6cda2a2, datestamp=1669667988 (Nov 28 2022 20:39:48)
+0037.569 (0) This backup set is the backup set just made, so will not be deleted.
+0037.570 (0) This backup set is the backup set just made, so will not be deleted.
+0037.571 (0) This backup set is the backup set just made, so will not be deleted.
+0037.571 (0) This backup set is the backup set just made, so will not be deleted.
+0037.571 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0037.573 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0037.576 (0) Resume backup (e8aba6cda2a2, 0): finish run
+0037.579 (0) Decremented the semaphore (fd) by 1
+0037.581 (0) Semaphore (fd) unlocked
+0037.582 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0037.589 (0) No email will/can be sent - the user has not configured an email address.
+0037.590 (0) The backup apparently succeeded and is now complete

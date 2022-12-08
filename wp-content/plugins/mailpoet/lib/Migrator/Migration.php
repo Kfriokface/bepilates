@@ -30,6 +30,10 @@ abstract class Migration {
 
   abstract public function run(): void;
 
+  protected function getTableName(string $entityClass): string {
+    return $this->entityManager->getClassMetadata($entityClass)->getTableName();
+  }
+
   protected function createTable(string $tableName, array $attributes): void {
     $prefix = Env::$dbPrefix;
     $charsetCollate = Env::$dbCharsetCollate;
@@ -39,5 +43,15 @@ abstract class Migration {
         $sql
       ) {$charsetCollate};
     ");
+  }
+
+  protected function columnExists(string $tableName, string $columnName): bool {
+    return $this->connection->executeQuery("
+      SELECT 1
+      FROM information_schema.columns
+      WHERE table_schema = ?
+      AND table_name = ?
+      AND column_name = ?
+    ", [Env::$dbName, $tableName, $columnName])->fetchOne() !== false;
   }
 }
