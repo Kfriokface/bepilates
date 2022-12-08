@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - SiteOrigin Widgets Bundle - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-11 10:39:49+0000\n"
+"PO-Revision-Date: 2022-12-08 10:04:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,15 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.3\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - SiteOrigin Widgets Bundle - Stable (latest release)\n"
+
+#: base/siteorigin-widget.class.php:625
+msgid "You have empty required widgets. Are you sure you wish to continue?"
+msgstr "Tienes widgets obligatorios que están vacíos. ¿Seguro que quieres continuar?"
+
+#. translators: Used to indicate field as required.
+#: base/inc/fields/base.class.php:332
+msgid "*"
+msgstr "*"
 
 #: widgets/simple-masonry/simple-masonry.php:231
 msgid "Origin"
@@ -36,7 +45,7 @@ msgstr "Etiquetas de la entrada"
 msgid "Title Padding"
 msgstr "Relleno del título"
 
-#: widgets/image-grid/image-grid.php:233
+#: widgets/cta/cta.php:103 widgets/image-grid/image-grid.php:233
 #: widgets/simple-masonry/simple-masonry.php:190
 msgid "Title Color"
 msgstr "Color del título"
@@ -76,7 +85,7 @@ msgstr "Posición del título"
 msgid "Display Image Title"
 msgstr "Mostrar título de la imagen"
 
-#: widgets/contact/contact.php:1523 widgets/contact/contact.php:1531
+#: widgets/contact/contact.php:1525 widgets/contact/contact.php:1533
 msgid "Unfortunately, our system identified your message as spam."
 msgstr "Desafortunadamente, nuestro sistema identificó tu mensaje como spam."
 
@@ -104,11 +113,11 @@ msgstr "Tamaño de la imagen destacada"
 msgid "Bottom align More link text"
 msgstr "Alinear al fondo el texto de enlace de leer más"
 
-#: widgets/blog/blog.php:1170
+#: widgets/blog/blog.php:1172
 msgid "Adjust the post Read More link text and choose a custom post date format with %sSiteOrigin Premium%s"
 msgstr "Ajusta el texto del enlace de leer más y elige un formato personalizado para la fecha de publicación con %sSiteOrigin Premium%sA"
 
-#: widgets/blog/blog.php:1165
+#: widgets/blog/blog.php:1167
 msgid "Get more pagination themes and Ajax reloading with %sSiteOrigin Premium%s"
 msgstr "Consigue más temas de paginación y recarga mediante Ajax con %sSiteOrigin Premium%s"
 
@@ -158,11 +167,11 @@ msgstr "Publicado en"
 msgid "Written by"
 msgstr "Escrito por"
 
-#: widgets/blog/blog.php:1152
+#: widgets/blog/blog.php:1154
 msgid "Post navigation"
 msgstr "Navegación de entradas"
 
-#: widgets/blog/blog.php:1054 widgets/blog/blog.php:1088
+#: widgets/blog/blog.php:1056 widgets/blog/blog.php:1090
 msgid "Continue reading"
 msgstr "Sigue leyendo"
 
@@ -317,7 +326,7 @@ msgid "Post Title"
 msgstr "Título de la entrada"
 
 #: widgets/blog/blog.php:189 widgets/blog/blog.php:452
-#: widgets/blog/blog.php:531
+#: widgets/blog/blog.php:531 widgets/cta/cta.php:98
 msgid "Border Color"
 msgstr "Color del borde"
 
@@ -413,11 +422,11 @@ msgstr "Captcha"
 msgid "Unable to detect Really Simple CAPTCHA plugin."
 msgstr "No ha sido posible detectar el plugin Really Simple CAPTCHA."
 
-#: widgets/contact/contact.php:1516
+#: widgets/contact/contact.php:1518
 msgid "Error validating your Captcha response. Please try again."
 msgstr "Error al validad tu respuesta al Captcha. Por favor, inténtalo de nuevo."
 
-#: widgets/contact/contact.php:1508
+#: widgets/contact/contact.php:1510
 msgid "Error validating your Captcha response. Really Simple CAPTCHA missing."
 msgstr "Error al validar tu respuesta al Captcha. Falta Really Simple CAPTCHA."
 
@@ -432,22 +441,6 @@ msgstr "Añadir Really Simple CAPTCHA"
 #: widgets/contact/contact.php:363
 msgid "Really Simple CAPTCHA"
 msgstr "Really Simple CAPTCHA"
-
-#: widgets/button/button.php:236
-msgid "Very High"
-msgstr "Muy alta"
-
-#: widgets/button/button.php:224
-msgid "Completely Rounded"
-msgstr "Completamente redondeado"
-
-#: widgets/button/button.php:223
-msgid "Very Rounded"
-msgstr "Muy redondeado"
-
-#: widgets/button/button.php:222
-msgid "Slightly Rounded"
-msgstr "Ligeramente redondeado"
 
 #: widgets/button/button.php:160
 msgid "Button Color"
@@ -509,7 +502,7 @@ msgstr "Da vida a tus páginas con las animaciones de Lottie."
 msgid "SiteOrigin Lottie Player"
 msgstr "Reproductor Lottie de SiteOrigin"
 
-#: widgets/button/button.php:469
+#: widgets/button/button.php:479
 msgid "Add a beautiful tooltip to the Button Widget with %sSiteOrigin Premium%s"
 msgstr "Añade una bonita información emergente al widget del botón con %sSiteOrigin Premium%s"
 
@@ -598,7 +591,7 @@ msgstr "Utiliza Google Fonts directamente en el widget de características con %
 msgid "Use Google Fonts right inside the Editor Widget with %sSiteOrigin Premium%s"
 msgstr "Utiliza Google Fonts directamente en el widget del editor con %sSiteOrigin Premium%s"
 
-#: widgets/contact/contact.php:1665
+#: widgets/contact/contact.php:1670
 msgid "Use Google Fonts right inside the Contact Form Widget with %sSiteOrigin Premium%s"
 msgstr "Utiliza Google Fonts directamente en el widget del formulario de contacto con %sSiteOrigin Premium%s"
 
@@ -661,7 +654,7 @@ msgstr "Añade varios marcos de pantalla completa de una vez con %sSiteOrigin Pr
 msgid "Add an feature icon title tooltip with %sSiteOrigin Premium%s"
 msgstr "Añade mensajes emergentes al título del icono con %sSiteOrigin Premium%s"
 
-#: widgets/contact/contact.php:1660
+#: widgets/contact/contact.php:1665
 msgid "Add a form autoresponder and additional fields, including a date and time picker with %sSiteOrigin Premium%s"
 msgstr "Añade respuesta automática y campos adicionales, incluidos selector de día y fecha, a formularios con %sSiteOrigin Premium%s"
 
@@ -673,7 +666,8 @@ msgstr "Opacidad del fondo del vídeo"
 msgid "Rel"
 msgstr "Rel"
 
-#: widgets/hero/hero.php:179 widgets/layout-slider/layout-slider.php:147
+#: widgets/cta/cta.php:113 widgets/hero/hero.php:179
+#: widgets/layout-slider/layout-slider.php:147
 #: widgets/simple-masonry/simple-masonry.php:227
 msgid "Layout"
 msgstr "Diseño"
@@ -1199,8 +1193,8 @@ msgstr "Vuelve automáticamente a la primera entrada después de la última entr
 msgid "Invalid phone number. It should contain at least three digits."
 msgstr "Número de teléfono no válido. Al menos debe contener tres dígitos."
 
-#: compat/block-editor/widget-block.php:63
-#: compat/block-editor/widget-block.php:98
+#: compat/block-editor/widget-block.php:64
+#: compat/block-editor/widget-block.php:99
 msgid "%s by %s"
 msgstr "%s por %s"
 
@@ -1388,7 +1382,7 @@ msgstr "Posición del contenedor del icono"
 msgid "Icon container color"
 msgstr "Color del contenedor del icono"
 
-#: compat/block-editor/widget-block.php:239
+#: compat/block-editor/widget-block.php:240
 msgid "Invalid widget class %s. Please make sure the widget has been activated in %sSiteOrigin Widgets%s."
 msgstr "Clase de widget %s no válida. Por favor, asegúrate de que el widget ha sido activado en %sSiteOrigin Widgets%s."
 
@@ -1412,7 +1406,7 @@ msgstr "AngelList"
 msgid "Phone"
 msgstr "Teléfono"
 
-#: compat/block-editor/widget-block.php:138
+#: compat/block-editor/widget-block.php:139
 msgid "You need to select a widget type before you'll see anything here. :)"
 msgstr "Tienes que seleccionar un tipo de widget antes de ver aquí algo. :)"
 
@@ -1436,7 +1430,7 @@ msgstr "Alineamiento del título"
 msgid "Responsive Height"
 msgstr "Altura adaptable"
 
-#: widgets/contact/contact.php:1541
+#: widgets/contact/contact.php:1543
 msgctxt "The name of who sent this email"
 msgid "From"
 msgstr "De"
@@ -1466,7 +1460,7 @@ msgctxt "From this date"
 msgid "From"
 msgstr "Desde"
 
-#: widgets/cta/cta.php:137
+#: widgets/cta/cta.php:198
 msgid "Get more font customization options with %sSiteOrigin Premium%s"
 msgstr "Consigue más opciones de personalización de fuentes con %sSiteOrigin Premium%s"
 
@@ -1497,7 +1491,8 @@ msgstr "Este ajuste controla cuando el widget de características se contrae en 
 
 #: base/inc/widgets/base-slider.class.php:222 widgets/blog/blog.php:608
 #: widgets/button/button.php:33 widgets/contact/contact.php:996
-#: widgets/features/features.php:387 widgets/headline/headline.php:37
+#: widgets/cta/cta.php:63 widgets/features/features.php:387
+#: widgets/headline/headline.php:37
 #: widgets/social-media-buttons/social-media-buttons.php:32
 msgid "Responsive Breakpoint"
 msgstr "Punto de ruptura adaptable"
@@ -1506,11 +1501,11 @@ msgstr "Punto de ruptura adaptable"
 msgid "Select Field Type"
 msgstr "Elige el tipo de campo"
 
-#: widgets/button/button.php:269 widgets/contact/contact.php:116
+#: widgets/button/button.php:266 widgets/contact/contact.php:116
 msgid "Run this JavaScript when the button is clicked. Ideal for tracking."
 msgstr "Ejecuta este JavaScript cuando se hace clic en el botón. Ideal para seguimiento."
 
-#: widgets/button/button.php:251 widgets/contact/contact.php:111
+#: widgets/button/button.php:248 widgets/contact/contact.php:111
 msgid "An ID attribute allows you to target this button in JavaScript."
 msgstr "Un atributo ID te permite controlar este botón en JavaScript."
 
@@ -1727,7 +1722,7 @@ msgstr "Usar el tamaño del icono para el icono personalizado"
 msgid "Enable the \"Automatically add paragraphs\" setting by default."
 msgstr "Activa el ajuste de \"Añadir párrafos automáticamente\" por defecto."
 
-#: compat/block-editor/widget-block.php:118
+#: compat/block-editor/widget-block.php:119
 #: compat/visual-composer/visual-composer.php:77
 msgid "Selecting a different widget will revert any changes. Continue?"
 msgstr "Seleccionar un widget diferente descartará cualquier cambio. ¿Continuar?"
@@ -1740,19 +1735,19 @@ msgstr "Te permite añadir cualquier widget activo de SiteOrigin Widgets Bundle.
 msgid "Visual Composer"
 msgstr "Visual Composer"
 
-#: base/siteorigin-widget.class.php:630
+#: base/siteorigin-widget.class.php:631
 msgid "Clicking %s will replace the current widget contents. You can revert by refreshing the page before updating."
 msgstr "Haciendo clic en %s reemplazará el contenido actual del widget. Puedes descartar los cambios recargando la página antes de guardar."
 
-#: base/siteorigin-widget.class.php:628
+#: base/siteorigin-widget.class.php:629
 msgid "Dismiss"
 msgstr "Descartar"
 
-#: base/siteorigin-widget.class.php:627 base/siteorigin-widget.class.php:631
+#: base/siteorigin-widget.class.php:628 base/siteorigin-widget.class.php:632
 msgid "Restore"
 msgstr "Restaurar"
 
-#: base/siteorigin-widget.class.php:626
+#: base/siteorigin-widget.class.php:627
 msgid "There is a newer version of this widget's content available."
 msgstr "Hay una nueva versión disponible del contenido de este widget."
 
@@ -1788,28 +1783,28 @@ msgstr "Específico"
 msgid "Date selection type"
 msgstr "Tipo de selección de fecha"
 
-#: base/inc/fields/date-range.class.php:72
+#: base/inc/fields/date-range.class.php:74
 msgid "years"
 msgstr "años"
 
-#: base/inc/fields/date-range.class.php:71
+#: base/inc/fields/date-range.class.php:73
 msgid "months"
 msgstr "meses"
 
-#: base/inc/fields/date-range.class.php:70
+#: base/inc/fields/date-range.class.php:72
 msgid "weeks"
 msgstr "semanas"
 
-#: base/inc/fields/date-range.class.php:69
+#: base/inc/fields/date-range.class.php:71
 msgid "days"
 msgstr "días"
 
-#: base/inc/fields/date-range.class.php:64
+#: base/inc/fields/date-range.class.php:66
 msgid "ago"
 msgstr "hace"
 
 #: base/inc/fields/date-range.class.php:34
-#: base/inc/fields/date-range.class.php:48
+#: base/inc/fields/date-range.class.php:50
 msgid "to"
 msgstr "hasta"
 
@@ -1830,17 +1825,17 @@ msgid "Font Design"
 msgstr "Diseño de fuentes"
 
 #: widgets/anything-carousel/anything-carousel.php:133
-#: widgets/button/button.php:106 widgets/features/features.php:74
-#: widgets/image-grid/image-grid.php:140 widgets/image-grid/image-grid.php:156
-#: widgets/image-grid/image-grid.php:253
+#: widgets/button/button.php:106 widgets/button/button.php:229
+#: widgets/features/features.php:74 widgets/image-grid/image-grid.php:140
+#: widgets/image-grid/image-grid.php:156 widgets/image-grid/image-grid.php:253
 #: widgets/simple-masonry/simple-masonry.php:211
 msgid "Bottom"
 msgstr "Abajo"
 
 #: widgets/anything-carousel/anything-carousel.php:125
-#: widgets/button/button.php:104 widgets/features/features.php:72
-#: widgets/image-grid/image-grid.php:134 widgets/image-grid/image-grid.php:154
-#: widgets/image-grid/image-grid.php:247
+#: widgets/button/button.php:104 widgets/button/button.php:223
+#: widgets/features/features.php:72 widgets/image-grid/image-grid.php:134
+#: widgets/image-grid/image-grid.php:154 widgets/image-grid/image-grid.php:247
 #: widgets/simple-masonry/simple-masonry.php:205
 msgid "Top"
 msgstr "Arriba"
@@ -1861,11 +1856,11 @@ msgstr "Mensaje indicador de campo obligatorio"
 msgid "Indicate required fields with asterisk (*)"
 msgstr "Indica los campos obligatorios con asterisco (*)"
 
-#: widgets/button/button.php:275
+#: widgets/button/button.php:272
 msgid "Adds a rel attribute to the button link."
 msgstr "Añade un atributo rel al enlace del botón."
 
-#: widgets/button/button.php:274
+#: widgets/button/button.php:271
 msgid "Rel Attribute"
 msgstr "Atributo «rel»"
 
@@ -1884,12 +1879,11 @@ msgstr "Color al pasar el cursor"
 msgid "Icon title"
 msgstr "Título del icono"
 
-#: widgets/cta/cta.php:92
-msgid "Subtitle color"
+#: widgets/cta/cta.php:107
+msgid "Subtitle Color"
 msgstr "Color del subtítulo"
 
-#: widgets/accordion/accordion.php:131 widgets/cta/cta.php:88
-#: widgets/tabs/tabs.php:140
+#: widgets/accordion/accordion.php:131 widgets/tabs/tabs.php:140
 msgid "Title color"
 msgstr "Color del título"
 
@@ -1941,11 +1935,11 @@ msgstr "Clave reCAPTCHA v2 del sitio"
 msgid "reCAPTCHA"
 msgstr "reCAPTCHA"
 
-#: widgets/button/button.php:257
+#: widgets/button/button.php:254
 msgid "Additional CSS classes added to the button link."
 msgstr "Se han agregado clases adicionales CSS al enlace del botón."
 
-#: widgets/button/button.php:256
+#: widgets/button/button.php:253
 msgid "Button Classes"
 msgstr "Clases del botón"
 
@@ -1964,10 +1958,6 @@ msgstr "Buscar iconos"
 #: admin/tpl/admin.php:130
 msgid "Save"
 msgstr "Guardar"
-
-#: base/inc/fields/base.class.php:331
-msgid "Required"
-msgstr "Requerido"
 
 #: widgets/headline/headline.php:287 widgets/hero/hero.php:278
 msgid "Dynamically adjust your heading font size based on screen size."
@@ -2242,7 +2232,7 @@ msgstr "Tema"
 msgid "Ionicons"
 msgstr "Ionicons"
 
-#: base/inc/fields/date-range.class.php:45
+#: base/inc/fields/date-range.class.php:47
 msgid "From"
 msgstr "De"
 
@@ -2300,7 +2290,7 @@ msgstr "Fondo del texto"
 msgid "Widget background"
 msgstr "Fondo del widget"
 
-#: widgets/testimonial/testimonial.php:214
+#: widgets/cta/cta.php:89 widgets/testimonial/testimonial.php:214
 msgid "Colors"
 msgstr "Colores"
 
@@ -2493,7 +2483,7 @@ msgstr "H2"
 msgid "H1"
 msgstr "H1"
 
-#: widgets/contact/contact.php:1501
+#: widgets/contact/contact.php:1503
 msgid "Unfortunately our system identified your message as spam."
 msgstr "Desafortunadamente nuestro sistema identificó tu mensaje como correo no deseado."
 
@@ -2844,7 +2834,7 @@ msgstr "Ubicación del vídeo"
 #: compat/visual-composer/visual-composer.php:38
 #: compat/visual-composer/visual-composer.php:54
 #: compat/block-editor/widget-block.js:25
-#: compat/block-editor/widget-block.js:232
+#: compat/block-editor/widget-block.js:238
 msgid "SiteOrigin Widget"
 msgstr "Widget de SiteOrigin"
 
@@ -3071,7 +3061,7 @@ msgstr "Portada"
 msgid "Background image type"
 msgstr "Tipo de imagen de fondo"
 
-#: widgets/blog/blog.php:194
+#: widgets/blog/blog.php:194 widgets/cta/cta.php:93
 msgid "Background Color"
 msgstr "Color de fondo"
 
@@ -3790,28 +3780,22 @@ msgstr "Añadir párrafos automáticamente"
 msgid "SiteOrigin Editor"
 msgstr "Editor SiteOrigin"
 
-#: widgets/cta/cta.php:109 widgets/google-map/google-map.php:506
+#: widgets/cta/cta.php:144 widgets/google-map/google-map.php:506
 #: widgets/hero/hero.php:79 widgets/hero/hero.php:91
 msgid "Button"
 msgstr "Botón"
 
-#: widgets/cta/cta.php:96
-msgid "Button align"
-msgstr "Alineación del botón"
-
 #: widgets/accordion/accordion.php:140 widgets/accordion/accordion.php:168
 #: widgets/contact/contact.php:449 widgets/contact/contact.php:571
-#: widgets/contact/contact.php:687 widgets/cta/cta.php:83
-#: widgets/tabs/tabs.php:116 widgets/tabs/tabs.php:150
-#: widgets/tabs/tabs.php:184
+#: widgets/contact/contact.php:687 widgets/tabs/tabs.php:116
+#: widgets/tabs/tabs.php:150 widgets/tabs/tabs.php:184
 msgid "Border color"
 msgstr "Color de borde"
 
 #: widgets/accordion/accordion.php:121 widgets/accordion/accordion.php:159
 #: widgets/contact/contact.php:384 widgets/contact/contact.php:439
-#: widgets/contact/contact.php:677 widgets/cta/cta.php:78
-#: widgets/hero/hero.php:133 widgets/layout-slider/layout-slider.php:101
-#: widgets/slider/slider.php:87
+#: widgets/contact/contact.php:677 widgets/hero/hero.php:133
+#: widgets/layout-slider/layout-slider.php:101 widgets/slider/slider.php:87
 #: widgets/social-media-buttons/social-media-buttons.php:85
 #: widgets/tabs/tabs.php:111 widgets/tabs/tabs.php:131
 #: widgets/tabs/tabs.php:175
@@ -3820,14 +3804,14 @@ msgstr "Color de fondo"
 
 #: base/inc/widgets/base-carousel.class.php:352
 #: widgets/accordion/accordion.php:111 widgets/blog/blog.php:179
-#: widgets/contact/contact.php:429 widgets/cta/cta.php:74
+#: widgets/contact/contact.php:429 widgets/cta/cta.php:85
 #: widgets/hero/hero.php:254 widgets/layout-slider/layout-slider.php:222
 #: widgets/slider/slider.php:134 widgets/tabs/tabs.php:101
 #: widgets/testimonial/testimonial.php:184
 msgid "Design"
 msgstr "Diseño"
 
-#: widgets/cta/cta.php:69 widgets/price-table/price-table.php:65
+#: widgets/cta/cta.php:80 widgets/price-table/price-table.php:65
 msgid "Subtitle"
 msgstr "Subtítulo"
 
@@ -3835,23 +3819,23 @@ msgstr "Subtítulo"
 msgid "SiteOrigin Call To Action"
 msgstr "SiteOrigin - Llamada a la acción"
 
-#: widgets/button/button.php:268 widgets/contact/contact.php:115
+#: widgets/button/button.php:265 widgets/contact/contact.php:115
 msgid "Onclick"
 msgstr "Al hacer clic"
 
-#: widgets/button/button.php:263
+#: widgets/button/button.php:260
 msgid "Adds a title attribute to the button link."
 msgstr "Añade un atributo de título al enlace del botón."
 
-#: widgets/button/button.php:262
+#: widgets/button/button.php:259
 msgid "Title Attribute"
 msgstr "Atributo del título"
 
-#: widgets/button/button.php:250 widgets/contact/contact.php:110
+#: widgets/button/button.php:247 widgets/contact/contact.php:110
 msgid "Button ID"
 msgstr "ID del botón"
 
-#: widgets/button/button.php:245
+#: widgets/button/button.php:242
 msgid "Other Attributes and SEO"
 msgstr "Otros atributos y SEO"
 
@@ -3860,19 +3844,17 @@ msgstr "Otros atributos y SEO"
 msgid "Very high"
 msgstr "Muy alto"
 
-#: widgets/button/button.php:235
 #: widgets/social-media-buttons/social-media-buttons.php:165
 #: widgets/social-media-buttons/social-media-buttons.php:198
 msgid "High"
 msgstr "Alto"
 
-#: widgets/button/button.php:233
 #: widgets/social-media-buttons/social-media-buttons.php:163
 #: widgets/social-media-buttons/social-media-buttons.php:196
 msgid "Low"
 msgstr "Bajo"
 
-#: widgets/button/button.php:230 widgets/contact/contact.php:444
+#: widgets/button/button.php:213 widgets/contact/contact.php:444
 #: widgets/contact/contact.php:550 widgets/contact/contact.php:735
 #: widgets/social-media-buttons/social-media-buttons.php:160
 #: widgets/testimonial/testimonial.php:235
@@ -3891,31 +3873,28 @@ msgstr "Muy redondeado"
 msgid "Slightly rounded"
 msgstr "Ligeramente redondeado"
 
-#: widgets/button/button.php:221 widgets/contact/contact.php:462
-#: widgets/contact/contact.php:584 widgets/contact/contact.php:695
-#: widgets/contact/contact.php:780 widgets/google-map/google-map.php:158
-#: widgets/headline/headline.php:218
+#: widgets/contact/contact.php:462 widgets/contact/contact.php:584
+#: widgets/contact/contact.php:695 widgets/contact/contact.php:780
+#: widgets/google-map/google-map.php:158 widgets/headline/headline.php:218
 #: widgets/social-media-buttons/social-media-buttons.php:152
 msgid "None"
 msgstr "Ninguno"
 
-#: widgets/button/button.php:218
+#: widgets/button/button.php:219
 #: widgets/social-media-buttons/social-media-buttons.php:149
 msgid "Rounding"
 msgstr "Redondeo"
 
-#: widgets/button/button.php:212
 #: widgets/social-media-buttons/social-media-buttons.php:144
 msgid "Extra large"
 msgstr "Extra grande"
 
-#: widgets/button/button.php:211
 #: widgets/social-media-buttons/social-media-buttons.php:143
 msgid "Large"
 msgstr "Grande"
 
-#: widgets/button/button.php:209 widgets/contact/contact.php:350
-#: widgets/contact/contact.php:626 widgets/contact/contact.php:728
+#: widgets/contact/contact.php:350 widgets/contact/contact.php:626
+#: widgets/contact/contact.php:728
 #: widgets/social-media-buttons/social-media-buttons.php:141
 msgid "Normal"
 msgstr "Normal"
@@ -3987,16 +3966,17 @@ msgstr "Centro"
 
 #: widgets/anything-carousel/anything-carousel.php:129
 #: widgets/button/button.php:105 widgets/button/button.php:131
-#: widgets/button/button.php:142 widgets/contact/contact.php:504
-#: widgets/contact/contact.php:519 widgets/contact/contact.php:748
-#: widgets/cta/cta.php:100 widgets/features/features.php:73
-#: widgets/headline/headline.php:102 widgets/headline/headline.php:112
-#: widgets/headline/headline.php:183 widgets/headline/headline.php:193
-#: widgets/headline/headline.php:248 widgets/headline/headline.php:257
-#: widgets/icon/icon.php:50 widgets/image-grid/image-grid.php:137
-#: widgets/image-grid/image-grid.php:167 widgets/image-grid/image-grid.php:204
-#: widgets/image-grid/image-grid.php:250 widgets/image/image.php:70
-#: widgets/image/image.php:82 widgets/simple-masonry/simple-masonry.php:161
+#: widgets/button/button.php:142 widgets/button/button.php:226
+#: widgets/contact/contact.php:504 widgets/contact/contact.php:519
+#: widgets/contact/contact.php:748 widgets/cta/cta.php:123
+#: widgets/features/features.php:73 widgets/headline/headline.php:102
+#: widgets/headline/headline.php:112 widgets/headline/headline.php:183
+#: widgets/headline/headline.php:193 widgets/headline/headline.php:248
+#: widgets/headline/headline.php:257 widgets/icon/icon.php:50
+#: widgets/image-grid/image-grid.php:137 widgets/image-grid/image-grid.php:167
+#: widgets/image-grid/image-grid.php:204 widgets/image-grid/image-grid.php:250
+#: widgets/image/image.php:70 widgets/image/image.php:82
+#: widgets/simple-masonry/simple-masonry.php:161
 #: widgets/simple-masonry/simple-masonry.php:208
 #: widgets/simple-masonry/simple-masonry.php:236
 #: widgets/social-media-buttons/social-media-buttons.php:175
@@ -4007,16 +3987,17 @@ msgstr "Derecha"
 
 #: widgets/anything-carousel/anything-carousel.php:137
 #: widgets/button/button.php:107 widgets/button/button.php:130
-#: widgets/button/button.php:141 widgets/contact/contact.php:503
-#: widgets/contact/contact.php:518 widgets/contact/contact.php:747
-#: widgets/cta/cta.php:99 widgets/features/features.php:75
-#: widgets/headline/headline.php:101 widgets/headline/headline.php:111
-#: widgets/headline/headline.php:182 widgets/headline/headline.php:192
-#: widgets/headline/headline.php:247 widgets/headline/headline.php:256
-#: widgets/icon/icon.php:49 widgets/image-grid/image-grid.php:143
-#: widgets/image-grid/image-grid.php:165 widgets/image-grid/image-grid.php:202
-#: widgets/image-grid/image-grid.php:256 widgets/image/image.php:69
-#: widgets/image/image.php:81 widgets/simple-masonry/simple-masonry.php:159
+#: widgets/button/button.php:141 widgets/button/button.php:232
+#: widgets/contact/contact.php:503 widgets/contact/contact.php:518
+#: widgets/contact/contact.php:747 widgets/cta/cta.php:121
+#: widgets/features/features.php:75 widgets/headline/headline.php:101
+#: widgets/headline/headline.php:111 widgets/headline/headline.php:182
+#: widgets/headline/headline.php:192 widgets/headline/headline.php:247
+#: widgets/headline/headline.php:256 widgets/icon/icon.php:49
+#: widgets/image-grid/image-grid.php:143 widgets/image-grid/image-grid.php:165
+#: widgets/image-grid/image-grid.php:202 widgets/image-grid/image-grid.php:256
+#: widgets/image/image.php:69 widgets/image/image.php:81
+#: widgets/simple-masonry/simple-masonry.php:159
 #: widgets/simple-masonry/simple-masonry.php:214
 #: widgets/simple-masonry/simple-masonry.php:235
 #: widgets/social-media-buttons/social-media-buttons.php:174
@@ -4180,8 +4161,7 @@ msgstr "Redondeado ultra fino"
 msgid "Thick"
 msgstr "Grueso"
 
-#: base/inc/widgets/base-slider.class.php:113 widgets/button/button.php:210
-#: widgets/button/button.php:234
+#: base/inc/widgets/base-slider.class.php:113
 #: widgets/social-media-buttons/social-media-buttons.php:142
 #: widgets/social-media-buttons/social-media-buttons.php:164
 #: widgets/social-media-buttons/social-media-buttons.php:197
@@ -4222,7 +4202,7 @@ msgstr "Velocidad de animación en milisegundos."
 msgid "Animation speed"
 msgstr "Velocidad de animación"
 
-#: base/inc/actions.php:53 base/siteorigin-widget.class.php:681
+#: base/inc/actions.php:53 base/siteorigin-widget.class.php:682
 msgid "Widget Preview"
 msgstr "Vista previa del Widget"
 
@@ -4297,7 +4277,7 @@ msgstr "Fecha de publicación"
 #: widgets/accordion/accordion.php:85
 #: widgets/anything-carousel/anything-carousel.php:65
 #: widgets/anything-carousel/anything-carousel.php:81 widgets/blog/blog.php:70
-#: widgets/contact/contact.php:61 widgets/cta/cta.php:64
+#: widgets/contact/contact.php:61 widgets/cta/cta.php:75
 #: widgets/editor/editor.php:34 widgets/features/features.php:140
 #: widgets/icon/icon.php:68 widgets/post-carousel/post-carousel.php:269
 #: widgets/price-table/price-table.php:42

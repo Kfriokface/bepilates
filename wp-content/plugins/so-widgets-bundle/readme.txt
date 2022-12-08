@@ -3,8 +3,8 @@ Tags: widget, button, slider, hero, google maps, image, carousel, lottie, featur
 Requires at least: 4.2
 Tested up to: 6.1
 Requires PHP: 5.6.20
-Stable tag: 1.44.1
-Build time: 2022-11-25T20:07:41+00:00
+Stable tag: 1.45.0
+Build time: 2022-12-07T14:01:42+00:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -105,6 +105,22 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.45.0 - 07 December 2022 =
+* Call To Action: Added `Mobile Button Align` setting.
+* PHP 8.1: Resolved form field deprecated notices.
+* Developer: Removed `edit-widgets` validation support.
+* Developer: Added min/max for number form field.
+
+= 1.44.2 - 03 December 2022 =
+* Added WP Rocket compatibility.
+* Button: Expanded Font Size, Padding, and Rounding to be more customizable.
+* Headline: Prevented a potential notice when adding `mobile_align` defaults to pre-existing instances.
+* Image Size Field: Update to display the setting description if available.
+* Simple Masonry: Resolved a potential `Undefined array key` warning.
+* Developer: Introduced widget validation via `sowbForms.validateFields` and `sow_validate_widget_data`.
+* Developer: Update to allow custom color palettes or for palettes to be completely removed on a field by field basis.
+* Developer: Pass state emitter field to custom callbacks. Allows developers to detect the field that triggered the emitter.
 
 = 1.44.1 - 25 November 2022 =
 * Icon Field: Resolved jQuery Migrate flag.

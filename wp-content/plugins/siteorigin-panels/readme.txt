@@ -3,8 +3,8 @@ Tags: page builder, responsive, parallax, widgets, blocks, gallery, layout, grid
 Requires at least: 4.7
 Tested up to: 6.1
 Requires PHP: 5.6.20
-Stable tag: 2.19.0
-Build time: 2022-11-22T21:19:44+00:00
+Stable tag: 2.20.0
+Build time: 2022-12-02T20:05:06+00:00
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/premium/
@@ -106,6 +106,10 @@ We've tried to ensure that Page Builder is compatible with most plugin widgets. 
 SiteOrigin Premium includes access to our professional email support service, perfect for those times when you need fast and effective technical support. We're standing by to assist you in any way we can.
 
 == Changelog ==
+
+= 2.20.0 - 02 December 2022 =
+* Styles: Added a row, cell, and widget `Border Thickness` setting.
+* Parallax: Resolved `Disable Parallax On Mobile` setting bug.
 
 = 2.19.0 - 22 November 2022 =
 * Styles: Added a row, cell, and widget `Background Image Size` setting.
